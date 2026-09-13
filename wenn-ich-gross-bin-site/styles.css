@@ -79,11 +79,13 @@ main{ max-width:var(--max); margin:0 auto; padding:28px 16px 60px; }
   padding:18px 18px;
 }
 .span-6{ grid-column: span 6; }
+.span-5{ grid-column: span 5; }
+.span-7{ grid-column: span 7; }
 .span-4{ grid-column: span 4; }
 .span-8{ grid-column: span 8; }
 .span-12{ grid-column: span 12; }
 @media (max-width: 760px){
-  .span-6,.span-4,.span-8{ grid-column: span 12; }
+  .span-6,.span-4,.span-5,.span-7,.span-8{ grid-column: span 12; }
 }
 .kicker{ font-weight:700; color:var(--accent2); letter-spacing:.2px; margin:0 0 6px; }
 h2{ margin: 0 0 10px; font-size: 1.35rem; }
@@ -183,3 +185,22 @@ ul{ margin: 0 0 12px 18px; }
   font-weight:700;
 }
 .caption{ margin:8px 2px 0; color:var(--muted); font-size:.95rem; }
+
+/* Lesefassungen: Sprunglinks führen ohne JavaScript direkt zum gewünschten Text. */
+.reading-guide{ margin:18px 0 0; }
+.reading-guide ul{ display:flex; flex-wrap:wrap; gap:8px; list-style:none; margin:10px 0 0; padding:0; }
+.reading-guide a{ display:inline-block; padding:8px 10px; border:1px solid var(--line); border-radius:999px; background:#fff; font-weight:700; }
+.reading-version{ scroll-margin-top:110px; background:var(--card); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); margin-top:14px; overflow:hidden; }
+.reading-version h3{ padding:18px; margin:0; font-size:1.1rem; color:var(--accent2); border-bottom:1px solid var(--line); }
+.reading-content{ padding:18px; max-width:72ch; }
+.reading-meta{ color:var(--muted); font-size:.95rem; font-weight:500; }
+.interview-topic{ border-top:1px solid var(--line); }
+.interview-topic:first-child{ border-top:0; }
+.interview-topic summary{ cursor:pointer; padding:16px 18px; font-weight:800; color:var(--accent2); }
+.interview-topic summary::marker{ color:var(--accent); }
+.interview-topic summary:focus-visible{ outline:3px solid var(--warm); outline-offset:-5px; }
+.topic-intro{ display:block; margin-top:6px; color:var(--muted); font-weight:500; }
+.qa{ padding:4px 18px 18px; }
+.qa h4{ margin:20px 0 6px; font-size:1.05rem; color:var(--accent2); }
+.qa p{ margin-bottom:10px; }
+.transparency{ margin-top:18px; font-size:.95rem; color:var(--muted); }
