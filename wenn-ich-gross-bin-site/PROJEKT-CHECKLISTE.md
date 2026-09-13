@@ -21,6 +21,14 @@ Diese Datei ist die verbindliche Prüfliste für jede größere Änderung an **�
 - [ ] Neue Abhängigkeiten oder ein Build-System werden nur eingeführt, wenn der konkrete Nutzen die zusätzliche Wartung rechtfertigt.
 - [ ] Nicht verwendete Dateien, Regeln und Platzhalter werden entfernt oder eindeutig als Entwurf markiert.
 - [ ] Neue Interviews folgen einer einheitlichen, dokumentierten Vorlage.
+- [ ] Jedes veröffentlichte Interview bietet drei klar bezeichnete Lesefassungen: kurz für Grundschulkinder, ausführlicher für etwa 10–13-Jährige und vollständig für ältere Jugendliche und Erwachsene.
+- [ ] Die vollständige Fassung ist die verbindliche inhaltliche Quelle. Kürzere Fassungen verdichten und erklären nur; sie erfinden, bewerten oder verändern keine Aussagen.
+- [ ] Namen, Stationen, zeitliche Reihenfolge, direkte Zitate und Kernaussagen stimmen in allen drei Lesefassungen überein.
+- [ ] Die Grundschul-Fassung steht an erster Stelle und ist sprachlich konkret, kurz und gut vorlesbar. Die anderen Fassungen sind leicht auffindbar, ohne die jüngsten Leserinnen und Leser zu überfordern.
+- [ ] Die Grundschul-Fassung gliedert sich in drei aufklappbare Themen: Tätigkeit, Weg in den Beruf und persönliche Passung. Titel und Kurzfassung bleiben auch im geschlossenen Zustand sichtbar.
+- [ ] Redaktionell ungeklärte oder nicht belegte Aussagen werden nicht veröffentlicht, sondern bis zur Klärung intern als offen dokumentiert.
+- [ ] Interviewseiten nennen keine Ortsangaben. „KIB“ darf ohne Ortsangabe genannt werden.
+- [ ] Das zugehörige Übergabedokument liegt unter `interviews-redaktion/` im Git-Repository und offene Redaktionsfragen bleiben dort nachvollziehbar.
 
 ## 3. Modernes, zugängliches Web
 
@@ -56,9 +64,10 @@ Diese Datei ist die verbindliche Prüfliste für jede größere Änderung an **�
 1. Alle geänderten Seiten auf Desktop und Mobilansicht ansehen.
 2. Tastaturnavigation und sichtbaren Fokus prüfen.
 3. Interne Links, Bildpfade und HTML-Struktur prüfen.
-4. Suche nach Platzhaltern durchführen: `deine-domain`, `(dein Name`, `(Adresse`, `Vorname Nachname`.
-5. Prüfen, ob neue Netzwerkaufrufe, Cookies, Speicherzugriffe oder personenbezogene Daten hinzugekommen sind.
-6. Abweichungen von dieser Liste im Commit oder Pull Request kurz begründen.
+4. Bei Interviews alle drei Lesefassungen Satz für Satz mit der vollständigen Fassung abgleichen; Widersprüche und neue Behauptungen verhindern.
+5. Suche nach Platzhaltern durchführen: `deine-domain`, `(dein Name`, `(Adresse`, `Vorname Nachname`.
+6. Prüfen, ob neue Netzwerkaufrufe, Cookies, Speicherzugriffe oder personenbezogene Daten hinzugekommen sind.
+7. Abweichungen von dieser Liste im Commit oder Pull Request kurz begründen.
 
 ## Veröffentlichungssperren
 
