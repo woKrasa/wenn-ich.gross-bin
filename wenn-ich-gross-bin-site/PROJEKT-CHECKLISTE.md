@@ -25,12 +25,24 @@ Diese Datei ist die verbindliche Prüfliste für jede größere Änderung an **�
 - [ ] Die vollständige Fassung ist die verbindliche inhaltliche Quelle. Kürzere Fassungen verdichten und erklären nur; sie erfinden, bewerten oder verändern keine Aussagen.
 - [ ] Namen, Stationen, zeitliche Reihenfolge, direkte Zitate und Kernaussagen stimmen in allen drei Lesefassungen überein.
 - [ ] Die Grundschul-Fassung steht an erster Stelle und ist sprachlich konkret, kurz und gut vorlesbar. Die anderen Fassungen sind leicht auffindbar, ohne die jüngsten Leserinnen und Leser zu überfordern.
-- [ ] Die Grundschul-Fassung gliedert sich in drei aufklappbare Themen: Tätigkeit, Weg in den Beruf und persönliche Passung. Titel und Kurzfassung bleiben auch im geschlossenen Zustand sichtbar.
+- [ ] Die Grundschul-Fassung steht auf einer eigenen, ruhigen Leseseite. Fragen und Antworten sind unmittelbar sichtbar; Kerninhalte werden nicht hinter aufklappbaren Bereichen verborgen.
 - [ ] Redaktionell ungeklärte oder nicht belegte Aussagen werden nicht veröffentlicht, sondern bis zur Klärung intern als offen dokumentiert.
 - [ ] Interviewseiten nennen keine Ortsangaben. „KIB“ darf ohne Ortsangabe genannt werden.
 - [ ] Das zugehörige Übergabedokument liegt unter `interviews-redaktion/` im Git-Repository und offene Redaktionsfragen bleiben dort nachvollziehbar.
 
-## 3. Modernes, zugängliches Web
+## 3. Kindgerechte Navigation
+
+- [ ] Allgemeine Prinzipien bewährter Kinderseiten dürfen untersucht und eigenständig übertragen werden; konkrete Designs, Figuren, Farbwelten, Illustrationen oder Formulierungen anderer Angebote werden nicht nachgeahmt.
+- [ ] Navigation und Knöpfe sind danach benannt, was ein Kind dort sehen oder tun kann, nicht nach internen Fachbegriffen.
+- [ ] Symbole unterstützen immer eine sichtbare Textbeschriftung und ersetzen sie nicht.
+- [ ] Dasselbe Symbol hat auf allen Seiten dieselbe Bedeutung; die Zahl unterschiedlicher Symbole bleibt überschaubar.
+- [ ] Klickflächen sind groß, vollständig anklickbar und mit Tastatur sowie Touch bedienbar.
+- [ ] Der aktuelle Hauptbereich ist deutlich farbig und durch stärkere Schrift hervorgehoben; andere Bereiche treten zurück.
+- [ ] Rückwege sind gut sichtbar und führen zu einem erwartbaren Ziel.
+- [ ] Lesefassungen werden nach Textmenge bezeichnet („Kurz lesen“, „Mehr lesen“, „Alles lesen“), nicht wertend als leicht, mittel oder schwer.
+- [ ] Bilder dienen der Orientierung. Fehlerhafte oder nicht freigegebene Bilder werden nicht stillschweigend ersetzt oder neu generiert.
+
+## 4. Modernes, zugängliches Web
 
 - [ ] Jede Seite hat Sprache, Zeichensatz, Viewport, eindeutigen Titel und passende Beschreibung.
 - [ ] Navigation ist mit Tastatur, Touch und kleinen Bildschirmen nutzbar; die aktuelle Seite ist ausgezeichnet.
@@ -41,7 +53,7 @@ Diese Datei ist die verbindliche Prüfliste für jede größere Änderung an **�
 - [ ] Links sind aussagekräftig; externe Links werden kenntlich gemacht, falls später vorhanden.
 - [ ] HTML und interne Links werden automatisiert oder manuell geprüft.
 
-## 4. Datenschutz und Datensparsamkeit
+## 5. Datenschutz und Datensparsamkeit
 
 - [ ] Es werden nur Daten erhoben, die für eine klar benannte Funktion wirklich nötig sind.
 - [ ] Es gibt kein Tracking, Profiling, Fingerprinting und keine Werbe- oder Analyse-Cookies.
@@ -52,14 +64,14 @@ Diese Datei ist die verbindliche Prüfliste für jede größere Änderung an **�
 - [ ] Änderungen an Hosting, Formularen, Videos, Karten oder Analysefunktionen lösen eine neue Datenschutzprüfung aus.
 - [ ] Datenschutzerklärung und Impressum entsprechen dem tatsächlich veröffentlichten Stand.
 
-## 5. Leistung und günstiges Hosting
+## 6. Leistung und günstiges Hosting
 
 - [ ] Die Website bleibt statisch hostbar, solange keine zwingende Funktion einen Server benötigt.
 - [ ] Bilder sind passend dimensioniert und komprimiert; unnötig große Dateien werden vermieden.
 - [ ] Es werden keine Bibliotheken für Funktionen eingebunden, die mit wenig HTML oder CSS lösbar sind.
 - [ ] Die Kerninhalte bleiben auch ohne JavaScript lesbar und navigierbar.
 
-## 6. Prüfung vor Merge oder Veröffentlichung
+## 7. Prüfung vor Merge oder Veröffentlichung
 
 1. Alle geänderten Seiten auf Desktop und Mobilansicht ansehen.
 2. Tastaturnavigation und sichtbaren Fokus prüfen.
