@@ -3,68 +3,57 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Interviews – Wenn ich groß bin …</title>
-  <meta name="description" content="Interviews über Lebenswege und Berufe." />
+  <title>Berufe entdecken – Wenn ich groß bin …</title>
+  <meta name="description" content="Echte Interviews über Berufe und Lebenswege." />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 <a class="skip-link" href="#content">Zum Inhalt springen</a>
-
 <header>
   <nav class="nav" aria-label="Hauptnavigation">
-    <div class="brand">
-      <a href="index.html">Wenn ich groß bin …</a>
-      <small>… und das komische Ding</small>
-    </div>
+    <div class="brand"><a href="index.html">Wenn ich groß bin …</a><small>… und das komische Dingsda</small></div>
     <ul>
-      <li><a href="komisches-ding.html">Das komische Ding</a></li>
-      <li><a href="interviews.html" aria-current="page">Interviews</a></li>
-      <li><a href="fuer-kinder.html">Für Kinder</a></li>
-      <li><a href="fuer-eltern.html">Für Eltern</a></li>
-      <li><a href="fuer-einladende.html">Für Einladende</a></li>
-      <li><a href="ueber-das-projekt.html">Über das Projekt</a></li>
-      <li><a href="kontakt.html">Kontakt</a></li>
+      <li><a href="index.html"><span class="nav-icon" aria-hidden="true">⌂</span>Start</a></li>
+      <li><a href="interviews.html" aria-current="page"><span class="nav-icon" aria-hidden="true">▤</span>Berufe entdecken</a></li>
+      <li><a href="komisches-ding.html"><span class="nav-icon" aria-hidden="true">?</span>Das Dingsda</a></li>
+      <li><a href="fuer-kinder.html"><span class="nav-icon" aria-hidden="true">☺</span>Für Kinder</a></li>
+      <li><a href="fuer-eltern.html"><span class="nav-icon" aria-hidden="true">◇</span>Für Eltern</a></li>
+      <li><a href="fuer-einladende.html"><span class="nav-icon" aria-hidden="true">▦</span>Für Schulen</a></li>
+      <li><a href="ueber-das-projekt.html"><span class="nav-icon" aria-hidden="true">i</span>Projekt</a></li>
+      <li><a href="kontakt.html"><span class="nav-icon" aria-hidden="true">✉</span>Kontakt</a></li>
     </ul>
   </nav>
 </header>
-
 <main id="content">
-<section class="hero">
-  <h1>Interviews</h1>
-  <p>
-    Echte Lebenswege: Was wollte ich als Kind werden? Was wurde daraus? Was liebe ich an meinem Beruf –
-    und was hat mir Schule später doch gebracht?
-  </p>
-  <p class="notice">Die Gespräche werden sorgfältig redigiert. Das erste echte Interview ist aufgenommen und wird gerade für diese Seite vorbereitet.</p>
-  <p>Jedes Gespräch gibt es in drei Lesefassungen: kurz für Grundschulkinder, mit mehr Einzelheiten für 10–13-Jährige und vollständig für alle, die den ganzen Lebensweg lesen möchten.</p>
-</section>
+  <section class="page-intro">
+    <p class="eyebrow">Echte Menschen · echte Wege</p>
+    <h1>Berufe entdecken</h1>
+    <p class="lead">Was wollte jemand als Kind werden? Was ist daraus geworden? Und was macht die Person heute?</p>
+  </section>
 
-<div class="hr" role="separator"></div>
-
-<section aria-label="Interview-Liste" class="interview-list">
-  <article class="interview-card">
-    <div class="thumb" aria-hidden="true">Foto</div>
+  <nav class="reading-filter" aria-label="Textmenge auswählen">
+    <p>Wie viel möchtest du lesen?</p>
     <div>
-      <span class="status">Drei Lesefassungen in Vorbereitung</span>
-      <h3><a href="interview-erzieherin.html">Entwicklungsbegleiterin</a></h3>
-      <p><strong>Heute:</strong> Erzieherin</p>
-      <p>Von der Hauptschule über Hauswirtschaft und Friseurausbildung bis zur Arbeit mit Kindern.</p>
+      <a class="reading-choice is-current" href="#kurz"><span class="amount-dots one" aria-hidden="true"><i></i></span><strong>Kurz lesen</strong><small>Grundschule</small></a>
+      <span class="reading-choice is-disabled" aria-disabled="true"><span class="amount-dots two" aria-hidden="true"><i></i><i></i></span><strong>Mehr lesen</strong><small>10–13 · folgt</small></span>
+      <span class="reading-choice is-disabled" aria-disabled="true"><span class="amount-dots three" aria-hidden="true"><i></i><i></i><i></i></span><strong>Alles lesen</strong><small>ab 14 · folgt</small></span>
     </div>
-  </article>
-  <article class="interview-card">
-    <div class="thumb" aria-hidden="true">＋</div>
-    <div><h3>Weitere Wege folgen</h3><p>Hier wächst eine Sammlung verschiedener, auch ungewöhnlicher und nicht geradliniger Lebenswege.</p></div>
-  </article>
-</section>
-</main>
+  </nav>
 
-<footer class="footer">
-  <div>
-    <a href="impressum.html">Impressum</a> ·
-    <a href="datenschutz.html">Datenschutz</a> ·
-    <a href="kontakt.html">Kontakt</a>
-  </div>
-</footer>
+  <section id="kurz" aria-labelledby="kurz-title">
+    <h2 id="kurz-title" class="section-title">Kurz lesen</h2>
+    <a class="interview-preview" href="interview-erzieherin.html">
+      <div class="preview-images" aria-hidden="true"><span>Foto folgt</span><span>Gemaltes Bild folgt</span></div>
+      <div>
+        <p class="kicker">Erzieherin</p>
+        <h3>Viel mehr als Spielen</h3>
+        <p>Sie begleitet Kinder beim Großwerden. Ihr eigener Weg führte über mehrere andere Berufe.</p>
+        <strong class="card-action">Interview auswählen <span aria-hidden="true">→</span></strong>
+      </div>
+    </a>
+  </section>
+</main>
+<footer class="footer"><div><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a> · <a href="kontakt.html">Kontakt</a></div></footer>
 </body>
 </html>
