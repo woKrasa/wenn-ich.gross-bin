@@ -4,124 +4,58 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Wenn ich groß bin …</title>
-  <meta name="description" content="Geschichten über Berufe für Kinder – und das spielerische Format ‚Das komische Ding‘." />
+  <meta name="description" content="Echte Berufs- und Lebenswege für Kinder." />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 <a class="skip-link" href="#content">Zum Inhalt springen</a>
-
 <header>
   <nav class="nav" aria-label="Hauptnavigation">
-    <div class="brand">
-      <a href="index.html">Wenn ich groß bin …</a>
-      <small>… und das komische Ding</small>
-    </div>
+    <div class="brand"><a href="index.html">Wenn ich groß bin …</a><small>… und das komische Dingsda</small></div>
     <ul>
-      <li><a href="komisches-ding.html">Das komische Ding</a></li>
-      <li><a href="interviews.html">Interviews</a></li>
-      <li><a href="fuer-kinder.html">Für Kinder</a></li>
-      <li><a href="fuer-eltern.html">Für Eltern</a></li>
-      <li><a href="fuer-einladende.html">Für Einladende</a></li>
-      <li><a href="ueber-das-projekt.html">Über das Projekt</a></li>
-      <li><a href="kontakt.html">Kontakt</a></li>
+      <li><a href="index.html" aria-current="page"><span class="nav-icon" aria-hidden="true">⌂</span>Start</a></li>
+      <li><a href="interviews.html"><span class="nav-icon" aria-hidden="true">▤</span>Berufe entdecken</a></li>
+      <li><a href="komisches-ding.html"><span class="nav-icon" aria-hidden="true">?</span>Das Dingsda</a></li>
+      <li><a href="fuer-kinder.html"><span class="nav-icon" aria-hidden="true">☺</span>Für Kinder</a></li>
+      <li><a href="fuer-eltern.html"><span class="nav-icon" aria-hidden="true">◇</span>Für Eltern</a></li>
+      <li><a href="fuer-einladende.html"><span class="nav-icon" aria-hidden="true">▦</span>Für Schulen</a></li>
+      <li><a href="ueber-das-projekt.html"><span class="nav-icon" aria-hidden="true">i</span>Projekt</a></li>
+      <li><a href="kontakt.html"><span class="nav-icon" aria-hidden="true">✉</span>Kontakt</a></li>
     </ul>
   </nav>
 </header>
-
 <main id="content">
-<section class="hero" aria-label="Einführung">
-  <img class="hero-image" src="assets/wenn-ich-gross-bin.png" alt="Ein Kind und ein Erwachsener sprechen über Zukunft und Berufe" />
-  <p class="eyebrow">Echte Wege · offene Möglichkeiten</p>
-  <h1>Wenn ich groß bin …</h1>
-  <p>
-    Lebensgeschichten aus echten Berufen – für Grundschulkinder.
-    Erwachsene erzählen, wie ihr Weg wirklich war: mit Umwegen, Überraschungen und Dingen,
-    die sie erst später verstanden haben.
-  </p>
+  <section class="hero home-intro" aria-labelledby="start-title">
+    <img class="hero-image hero-image-complete" src="assets/wenn-ich-gross-bin.png" alt="Ein Kind und ein Erwachsener sprechen über Zukunft und Berufe" />
+    <p class="eyebrow">Echte Wege · offene Möglichkeiten</p>
+    <h1 id="start-title">Wenn ich groß bin …</h1>
+    <p class="lead">Erwachsene erzählen, wie ihr Weg wirklich war: mit Umwegen, Überraschungen und Dingen, die sie erst später verstanden haben.</p>
+  </section>
 
-  <div class="grid" role="list">
-    <div class="card span-6" role="listitem">
-      <p class="kicker">Aktionstag</p>
+  <section class="home-choices" aria-label="Was möchtest du entdecken?">
+    <article class="home-choice">
+      <p class="kicker">Anschauen · rätseln · fragen</p>
       <h2>Das komische Dingsda</h2>
-      <img class="hero-image" src="assets/komisches-dingsda.png" alt="Ein Kind untersucht neugierig einen unbekannten Gegenstand" />
-      <p>
-        Ein Erwachsener bringt 2–3 Gegenstände mit. Die Kinder raten in Gruppen,
-        stellen Fragen und entdecken so spielerisch, was ein Beruf ausmacht.
-      </p>
-      <p>
-        <a class="btn" href="komisches-ding.html">So läuft’s ab</a>
-        <a class="btn secondary" href="kontakt.html">Termin anfragen</a>
-      </p>
-      <div class="tagrow" aria-label="Eigenschaften">
-        <span class="tag">spielerisch</span>
-        <span class="tag">aktiv</span>
-        <span class="tag">ohne Leistungsdruck</span>
-      </div>
-    </div>
+      <img class="choice-image" src="assets/komisches-dingsda.png" alt="Ein Kind untersucht neugierig einen unbekannten Gegenstand" />
+      <p>Ein Erwachsener bringt unbekannte Gegenstände mit. Kinder raten, fragen und entdecken den Beruf dahinter.</p>
+      <div class="button-row"><a class="btn" href="komisches-ding.html"><span aria-hidden="true">?</span> So läuft’s ab</a><a class="btn secondary" href="kontakt.html"><span aria-hidden="true">✉</span> Termin anfragen</a></div>
+    </article>
 
-    <div class="card span-6" role="listitem">
-      <p class="kicker">Lesen & stöbern</p>
-      <h2>Interviews</h2>
-      <p>
-        Was wollte ich als Kind werden? Was bin ich geworden? Was liebe ich an meinem Job –
-        und was hat mir Schule später doch gebracht?
-      </p>
-      <p>
-        <a class="btn" href="interviews.html">Interviews ansehen</a>
-        <a class="btn secondary" href="fuer-kinder.html">Für Kinder</a>
-      </p>
-      <div class="tagrow" aria-label="Eigenschaften">
-        <span class="tag">nahbar</span>
-        <span class="tag">vielfältig</span>
-        <span class="tag">ehrlich</span>
-      </div>
-    </div>
+    <article class="home-choice">
+      <p class="kicker">Lesen & entdecken</p>
+      <h2>Echte Lebenswege</h2>
+      <p>Was wollte jemand als Kind werden? Was ist daraus geworden? Und welche Umwege gab es?</p>
+      <div class="button-row"><a class="btn" href="interviews.html"><span aria-hidden="true">▤</span> Berufe entdecken</a></div>
+    </article>
+  </section>
 
-    <div class="card span-4">
-      <p class="kicker">Für Kinder</p>
-      <h2>Neugierig sein</h2>
-      <p>Hier steht kurz und einfach, was passiert – und warum es Spaß macht.</p>
-      <p><a class="btn secondary" href="fuer-kinder.html">Zu „Für Kinder“</a></p>
-    </div>
-
-    <div class="card span-4">
-      <p class="kicker">Für Eltern</p>
-      <h2>Vertrauen & Ablauf</h2>
-      <p>Worum es geht, wie ein Termin abläuft und welche Grenzen wir setzen.</p>
-      <p><a class="btn secondary" href="fuer-eltern.html">Zu „Für Eltern“</a></p>
-    </div>
-
-    <div class="card span-4">
-      <p class="kicker">Für Einladende</p>
-      <h2>Schulen & Vereine</h2>
-      <p>Format, Aufwand, Voraussetzungen – und wie man uns einlädt.</p>
-      <p><a class="btn secondary" href="fuer-einladende.html">Zu „Für Einladende“</a></p>
-    </div>
-  </div>
-
-  <div class="hr" role="separator"></div>
-
-  <div class="notice">
-    <strong>Wichtig:</strong> Dieses Projekt ist kein Test und keine Berufsberatung.
-    Es geht um Zukunftsbilder, Neugier und echte Lebenswege – ohne Druck.
-  </div>
-  <div class="grid">
-    <section class="card span-12 promise">
-      <p class="kicker">Unser Versprechen</p>
-      <h2>Du musst heute noch nicht wissen, wer du einmal wirst.</h2>
-      <p>Wir zeigen Möglichkeiten, ohne Kinder zu sortieren. Fähigkeiten dürfen wachsen, Pläne dürfen sich ändern und Umwege gehören zu echten Lebenswegen.</p>
-    </section>
-  </div>
-</section>
+  <section class="audience-links" aria-label="Weitere Informationen">
+    <a href="fuer-kinder.html"><span aria-hidden="true">☺</span><strong>Für Kinder</strong><small>Was dich hier erwartet</small></a>
+    <a href="fuer-eltern.html"><span aria-hidden="true">◇</span><strong>Für Eltern</strong><small>Haltung und Ablauf</small></a>
+    <a href="fuer-einladende.html"><span aria-hidden="true">▦</span><strong>Für Schulen</strong><small>Das Format einladen</small></a>
+  </section>
 </main>
-
-<footer class="footer">
-  <div>
-    <a href="impressum.html">Impressum</a> ·
-    <a href="datenschutz.html">Datenschutz</a> ·
-    <a href="kontakt.html">Kontakt</a>
-  </div>
-</footer>
+<footer class="footer"><div><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a> · <a href="kontakt.html">Kontakt</a></div></footer>
 </body>
 </html>
