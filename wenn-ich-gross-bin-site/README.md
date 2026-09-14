@@ -18,7 +18,8 @@ Die Website besteht nur aus HTML, CSS und Bildern. Es gibt keinen Build-Schritt,
 
 - `index.html` – Startseite
 - `interviews.html` – Übersicht aller Interviews
-- `interview-erzieherin.html` – Vorschau auf das erste echte Interview
+- `interview-erzieherin.html` – ruhige Einstiegs- und Auswahlseite des ersten Interviews
+- `interview-erzieherin-grundschule.html` – unmittelbar lesbare Grundschulfassung
 - `interview-template.html` – Kopiervorlage für neue Interviews
 - `komisches-ding.html` – Erklärung des Aktionsformats
 - `fuer-kinder.html`, `fuer-eltern.html`, `fuer-einladende.html` – Zielgruppen-Seiten
@@ -48,7 +49,7 @@ Die Website besteht nur aus HTML, CSS und Bildern. Es gibt keinen Build-Schritt,
 
 ### Die drei Lesefassungen pflegen
 
-Alle Fassungen stehen gemeinsam in einer Interviewdatei. Dadurch müssen Navigation, Bilder und Grunddaten nur einmal gepflegt werden. Sprunglinks führen direkt zur gewünschten Fassung und funktionieren ohne JavaScript.
+Jedes Interview erhält eine ruhige Einstiegsseite mit Bildplätzen, kurzem Berufstext und Auswahl der Textmenge. Die eigentlichen Lesefassungen stehen auf getrennten Seiten. So sehen Grundschulkinder nur den für sie gedachten Text und werden nicht von längeren Fassungen abgelenkt.
 
 - **Kurz:** Grundschule; kurze Fragen und Antworten, konkrete Wörter, gut zum Vorlesen.
 - **Mehr:** etwa 10–13 Jahre; mehr Stationen, Zusammenhänge und Schwierigkeiten.
@@ -56,7 +57,7 @@ Alle Fassungen stehen gemeinsam in einer Interviewdatei. Dadurch müssen Navigat
 
 Nach jeder inhaltlichen Änderung zuerst die vollständige Fassung aktualisieren und danach beide kürzeren Fassungen erneut vergleichen.
 
-Die Grundschul-Fassung enthält zusätzlich drei aufklappbare Themenbereiche. Im `summary` stehen Titel und Kurzfassung; im darunterliegenden Bereich stehen die Fragen und Antworten. So ist die Seite schon im geschlossenen Zustand verständlich.
+In der Grundschul-Fassung sind alle Fragen und Antworten sofort sichtbar. Große Fragen, kurze Absätze, eine schmale Textspalte und viel Abstand unterstützen den Lesefluss.
 
 ### Ein Bild austauschen
 
