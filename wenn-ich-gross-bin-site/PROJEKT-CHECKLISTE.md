@@ -98,3 +98,15 @@ Eine öffentliche Veröffentlichung erfolgt **nicht**, solange:
 - Kontakt über `mailto:`; keine Übertragung an die Website selbst
 - gemeinsame Gestaltung in `styles.css`
 - bekannte Wartungsschuld: wiederholte Navigation und Footer in mehreren HTML-Dateien; bei weiterem Wachstum sollte eine kleine, statische Template-Lösung geprüft werden
+
+## Bilder und Bildsprache
+
+- [ ] Leitbilder wirken freundlich, klar, eigenständig und leicht handgezeichnet, zugleich geglättet und gestalterisch konsistent.
+- [ ] Grundfiguren, Handlung und freigegebene Gegenstände bleiben bei einer Überarbeitung erhalten.
+- [ ] Personen haben plausible Körper; es gibt keine zusätzlichen oder schwebenden Gliedmaßen oder Gegenstände.
+- [ ] Text in Bildern ist vollständig, richtig geschrieben und nicht angeschnitten.
+- [ ] Leitillustrationen haben einen transparenten Hintergrund und werden vollständig ohne automatischen Beschnitt angezeigt (`object-fit: contain`).
+- [ ] Neue Bildfassungen überschreiben keine freigegebenen Originale, sondern erhalten eine neue, verständlich versionierte Datei.
+- [ ] Bilddateien werden für Anzeigegröße, sichtbare Qualität, Ladezeit und Mobilansicht geprüft.
+- [ ] Illustrationen, Symbole und Website teilen Konturstärke, Farbrollen und Grundstimmung, ohne konkrete fremde Designs nachzuahmen.
+- [ ] Symbole bleiben auch ohne Farbe verständlich und werden in der Navigation mit sichtbarem Text kombiniert.

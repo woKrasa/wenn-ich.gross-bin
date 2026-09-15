@@ -57,3 +57,12 @@ Im Commit oder Pull Request kurz festhalten:
 - Welche offenen Punkte oder Veröffentlichungssperren bleiben?
 
 Kein positives Prüfergebnis behaupten, wenn eine Prüfung nicht ausgeführt werden konnte.
+
+## Verbindliche Regeln für Bilder
+
+- Freigegebene Bildoriginale niemals überschreiben. Jede Überarbeitung erhält einen neuen, verständlich versionierten Dateinamen.
+- Leitillustrationen vollständig und ohne Beschnitt anzeigen; einen transparenten Hintergrund erhalten.
+- Vor Verwendung Motiv und Figuren prüfen: plausible Anatomie, keine zusätzlichen oder schwebenden Körperteile oder Gegenstände, keine ungewollten Telefone und kein abgeschnittener oder falscher Bildtext.
+- Neue Bildvarianten auf Desktop und Mobil gegen Motiv, Figuren, Gegenstände, Text, Alternativtext, Dateigröße und sichtbare Qualität prüfen.
+- Der Stil soll freundlich, klar, eigenständig und leicht handgezeichnet wirken, zugleich geglättet und konsistent. Konkrete fremde Designs werden nicht nachgeahmt.
+- Symbole mit sichtbarer Beschriftung kombinieren und erst nach ausdrücklicher Freigabe in die Website übernehmen.

@@ -61,7 +61,7 @@ In der Grundschul-Fassung sind alle Fragen und Antworten sofort sichtbar. Große
 
 ### Ein Bild austauschen
 
-Das neue Bild in `assets/` speichern. Im passenden `<img>`-Element nur den Wert hinter `src=` ändern. Der Text hinter `alt=` beschreibt das Bild für Menschen, die es nicht sehen können, und muss ebenfalls passen.
+Das neue Bild in `assets/` speichern. Ein freigegebenes Original nicht überschreiben: eine neue, verständlich versionierte Datei anlegen, zum Beispiel `motiv-v2.png`. Im passenden `<img>`-Element nur den Wert hinter `src=` ändern. Der Text hinter `alt=` beschreibt das Bild für Menschen, die es nicht sehen können, und muss ebenfalls passen. Danach Desktop und Mobilansicht prüfen: Das ganze Motiv und etwaiger Bildtext müssen sichtbar bleiben.
 
 ## Vor jeder neuen Version
 

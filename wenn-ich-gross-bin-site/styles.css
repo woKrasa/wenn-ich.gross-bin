@@ -208,7 +208,7 @@ ul{ margin: 0 0 12px 18px; }
 
 /* Prototyp V0.3: ruhige Kinder-Navigation und getrennte Interview-Leseseiten. */
 body::after{
-  content:"Prototyp V0.3";
+  content:"Prototyp V0.4";
   position:fixed;
   right:10px;
   bottom:8px;
