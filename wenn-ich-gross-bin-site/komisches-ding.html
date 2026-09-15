@@ -5,32 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Das komische Ding – Wenn ich groß bin …</title>
   <meta name="description" content="Ein Ratespiel-Besuch: Erwachsene bringen Gegenstände mit, Kinder raten, fragen und entdecken Berufe." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 <a class="skip-link" href="#content">Zum Inhalt springen</a>
 
-<header>
-  <nav class="nav" aria-label="Hauptnavigation">
-    <div class="brand">
-      <a href="index.html">Wenn ich groß bin …</a>
-      <small>… und das komische Ding</small>
-    </div>
-    <ul>
-      <li><a href="komisches-ding.html" aria-current="page">Das komische Ding</a></li>
-      <li><a href="interviews.html">Interviews</a></li>
-      <li><a href="fuer-kinder.html">Für Kinder</a></li>
-      <li><a href="fuer-eltern.html">Für Eltern</a></li>
-      <li><a href="fuer-einladende.html">Für Einladende</a></li>
-      <li><a href="ueber-das-projekt.html">Über das Projekt</a></li>
-      <li><a href="kontakt.html">Kontakt</a></li>
+<header class="site-header">
+  <nav class="site-nav" aria-label="Hauptnavigation">
+    <a class="site-brand" href="index.html">Wenn ich groß bin …<small>und das komische Dingsda</small></a>
+    <ul class="child-nav">
+      <li><a href="index.html"><img src="assets/icon-start.svg" alt="" /><span>Start</span></a></li>
+      <li><a href="interviews.html"><img src="assets/icon-berufe.svg" alt="" /><span>Berufe</span></a></li>
+      <li><a href="komisches-ding.html" aria-current="page"><img src="assets/icon-dingsda.svg" alt="" /><span>Dingsda</span></a></li>
     </ul>
+    <details class="project-nav">
+      <summary>Projekt &amp; Erwachsene</summary>
+      <div class="project-links">
+        <a href="fuer-eltern.html">Für Eltern</a>
+        <a href="fuer-einladende.html">Für Schulen</a>
+        <a href="ueber-das-projekt.html">Über das Projekt</a>
+        <a href="kontakt.html">Kontakt</a>
+      </div>
+    </details>
   </nav>
 </header>
 
 <main id="content">
-<section class="hero">
-  <h1>Das komische Ding</h1>
+<section class="hero dingsda-intro">
+  <div>
+  <p class="eyebrow">Anschauen · rätseln · fragen</p>
+  <h1>Das komische Dingsda</h1>
   <p>
     Ein Erwachsener besucht eine Kindergruppe und bringt 2–3 „komische Dinge“ mit.
     Die Kinder rätseln in Teams, wofür sie sind, dürfen Fragen stellen (auch lustige!) –
@@ -40,6 +45,8 @@
     <a class="btn" href="kontakt.html">Termin anfragen</a>
     <a class="btn secondary" href="interviews.html">Erst Interviews ansehen</a>
   </p>
+  </div>
+  <img src="assets/komisches-dingsda-v2.webp" alt="Ein Kind untersucht mit einer Lupe die Gegenstände eines Erwachsenen" />
 </section>
 
 <div class="grid">
