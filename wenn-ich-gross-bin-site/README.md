@@ -36,6 +36,17 @@ Die Website besteht nur aus HTML, CSS und Bildern. Es gibt keinen Build-Schritt,
 - Platzhalter in `kontakt.html`, `impressum.html` und `datenschutz.html` müssen vor einer Veröffentlichung durch echte Kontaktdaten ersetzt werden.
 - Das Übergabedokument zu jedem Interview zusätzlich unter `interviews-redaktion/` im Git-Repository ablegen. So bleiben Quelle, offene Fragen und spätere Änderungen nachvollziehbar.
 
+### Navigation verstehen
+
+Die Startseite ist bereits für Kinder gedacht. Deshalb gibt es oben keinen zusätzlichen Menüpunkt „Für Kinder“ mehr.
+
+- **Start** führt zur kindgerechten Auswahlseite.
+- **Berufe** führt zu den Interviews. Erst dort wird die Textmenge gewählt.
+- **Dingsda** erklärt das Aktionsformat und kann später um Berichte ergänzt werden.
+- **Projekt & Erwachsene** bündelt Informationen für Eltern und Schulen, die Projektbeschreibung und den Kontakt.
+
+Auf kleinen Bildschirmen bleiben die drei Kinderziele groß sichtbar. Projektinformationen stehen bewusst getrennt darüber.
+
 ### Ein neues Interview anlegen
 
 1. `interview-template.html` kopieren und verständlich benennen, zum Beispiel `interview-tischlerin.html`.
@@ -62,6 +73,8 @@ In der Grundschul-Fassung sind alle Fragen und Antworten sofort sichtbar. Große
 ### Ein Bild austauschen
 
 Das neue Bild in `assets/` speichern. Ein freigegebenes Original nicht überschreiben: eine neue, verständlich versionierte Datei anlegen, zum Beispiel `motiv-v2.png`. Im passenden `<img>`-Element nur den Wert hinter `src=` ändern. Der Text hinter `alt=` beschreibt das Bild für Menschen, die es nicht sehen können, und muss ebenfalls passen. Danach Desktop und Mobilansicht prüfen: Das ganze Motiv und etwaiger Bildtext müssen sichtbar bleiben.
+
+Die kleinen Navigationsbilder liegen ebenfalls unter `assets/` und beginnen mit `icon-`. Symbol und sichtbarer Linktext gehören zusammen. Beim Austausch müssen Bedeutung, Größe und Abstand auf Desktop und Handy geprüft werden.
 
 ## Vor jeder neuen Version
 

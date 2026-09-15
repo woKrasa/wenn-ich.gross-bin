@@ -41,6 +41,13 @@ Diese Datei ist die verbindliche Prüfliste für jede größere Änderung an **�
 - [ ] Rückwege sind gut sichtbar und führen zu einem erwartbaren Ziel.
 - [ ] Lesefassungen werden nach Textmenge bezeichnet („Kurz lesen“, „Mehr lesen“, „Alles lesen“), nicht wertend als leicht, mittel oder schwer.
 - [ ] Bilder dienen der Orientierung. Fehlerhafte oder nicht freigegebene Bilder werden nicht stillschweigend ersetzt oder neu generiert.
+- [ ] Die sichtbare Kinder-Hauptnavigation enthält nur **Start**, **Berufe** und **Dingsda**.
+- [ ] Informationen für Eltern und Schulen sowie Projekt- und Kontaktseiten sind unter **Projekt & Erwachsene** nachgeordnet.
+- [ ] „Für Kinder“ ist kein zweiter Startbereich: Die eigentliche Startseite ist bereits die Kinderseite.
+- [ ] Die Wahl „Kurz lesen“, „Mehr lesen“ und „Alles lesen“ erscheint erst im Interviewbereich, nicht als globale Seiteneinstellung.
+- [ ] Auf der Startseite ist „Berufe entdecken“ der erste und größere Einstieg. Dingsda bleibt als eigenständiger, erweiterbarer zweiter Einstieg sichtbar.
+- [ ] Große Auswahlflächen sind vollständig anklickbar; ein sichtbarer Handlungstext beschreibt das Ziel zusätzlich.
+- [ ] Kinder-Schaltflächen bleiben auch mobil groß und lesbar. Bei wenig Platz werden Inhalte umgebrochen oder untereinander angeordnet, nicht unleserlich verkleinert.
 
 ## 4. Modernes, zugängliches Web
 
@@ -110,3 +117,4 @@ Eine öffentliche Veröffentlichung erfolgt **nicht**, solange:
 - [ ] Bilddateien werden für Anzeigegröße, sichtbare Qualität, Ladezeit und Mobilansicht geprüft.
 - [ ] Illustrationen, Symbole und Website teilen Konturstärke, Farbrollen und Grundstimmung, ohne konkrete fremde Designs nachzuahmen.
 - [ ] Symbole bleiben auch ohne Farbe verständlich und werden in der Navigation mit sichtbarem Text kombiniert.
+- [ ] Der freigegebene Symbolstand V12 ist die gestalterische Grundlage. Auf einer konkreten Seite werden nur die dort benötigten Symbole eingesetzt.

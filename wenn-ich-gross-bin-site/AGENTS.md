@@ -66,3 +66,12 @@ Kein positives Prüfergebnis behaupten, wenn eine Prüfung nicht ausgeführt wer
 - Neue Bildvarianten auf Desktop und Mobil gegen Motiv, Figuren, Gegenstände, Text, Alternativtext, Dateigröße und sichtbare Qualität prüfen.
 - Der Stil soll freundlich, klar, eigenständig und leicht handgezeichnet wirken, zugleich geglättet und konsistent. Konkrete fremde Designs werden nicht nachgeahmt.
 - Symbole mit sichtbarer Beschriftung kombinieren und erst nach ausdrücklicher Freigabe in die Website übernehmen.
+
+## Verbindliche Navigationsstruktur
+
+- Kinder-Hauptnavigation auf **Start**, **Berufe** und **Dingsda** begrenzen.
+- Eltern, Schulen, Projekt und Kontakt unter **Projekt & Erwachsene** bündeln.
+- Keine zweite parallele Kinder-Startseite in der Hauptnavigation anbieten.
+- Lesemenge nur im Interviewbereich wählen lassen.
+- Kinder-Schaltflächen großzügig, vollständig anklickbar und mobil lesbar halten.
+- Den freigegebenen Symbolstand V12 verwenden und nur die für den jeweiligen Bereich benötigten Symbole anzeigen.

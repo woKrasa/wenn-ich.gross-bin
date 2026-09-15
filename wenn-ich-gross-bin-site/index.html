@@ -10,50 +10,55 @@
 </head>
 <body>
 <a class="skip-link" href="#content">Zum Inhalt springen</a>
-<header>
-  <nav class="nav" aria-label="Hauptnavigation">
-    <div class="brand"><a href="index.html">Wenn ich groß bin …</a><small>… und das komische Dingsda</small></div>
-    <ul>
-      <li><a href="index.html" aria-current="page"><span class="nav-icon" aria-hidden="true">⌂</span>Start</a></li>
-      <li><a href="interviews.html"><span class="nav-icon" aria-hidden="true">▤</span>Berufe entdecken</a></li>
-      <li><a href="komisches-ding.html"><span class="nav-icon" aria-hidden="true">?</span>Das Dingsda</a></li>
-      <li><a href="fuer-kinder.html"><span class="nav-icon" aria-hidden="true">☺</span>Für Kinder</a></li>
-      <li><a href="fuer-eltern.html"><span class="nav-icon" aria-hidden="true">◇</span>Für Eltern</a></li>
-      <li><a href="fuer-einladende.html"><span class="nav-icon" aria-hidden="true">▦</span>Für Schulen</a></li>
-      <li><a href="ueber-das-projekt.html"><span class="nav-icon" aria-hidden="true">i</span>Projekt</a></li>
-      <li><a href="kontakt.html"><span class="nav-icon" aria-hidden="true">✉</span>Kontakt</a></li>
+<header class="site-header">
+  <nav class="site-nav" aria-label="Hauptnavigation">
+    <a class="site-brand" href="index.html">Wenn ich groß bin …<small>und das komische Dingsda</small></a>
+    <ul class="child-nav">
+      <li><a href="index.html" aria-current="page"><img src="assets/icon-start.svg" alt="" /><span>Start</span></a></li>
+      <li><a href="interviews.html"><img src="assets/icon-berufe.svg" alt="" /><span>Berufe</span></a></li>
+      <li><a href="komisches-ding.html"><img src="assets/icon-dingsda.svg" alt="" /><span>Dingsda</span></a></li>
     </ul>
+    <details class="project-nav">
+      <summary>Projekt &amp; Erwachsene</summary>
+      <div class="project-links">
+        <a href="fuer-eltern.html">Für Eltern</a>
+        <a href="fuer-einladende.html">Für Schulen</a>
+        <a href="ueber-das-projekt.html">Über das Projekt</a>
+        <a href="kontakt.html">Kontakt</a>
+      </div>
+    </details>
   </nav>
 </header>
 <main id="content">
-  <section class="hero home-intro" aria-labelledby="start-title">
-    <img class="hero-image hero-image-complete" src="assets/wenn-ich-gross-bin-v2.webp" alt="Ein Kind und ein Erwachsener sprechen über Zukunft und Berufe" />
-    <p class="eyebrow">Echte Wege · offene Möglichkeiten</p>
-    <h1 id="start-title">Wenn ich groß bin …</h1>
-    <p class="lead">Erwachsene erzählen, wie ihr Weg wirklich war: mit Umwegen, Überraschungen und Dingen, die sie erst später verstanden haben.</p>
+  <section class="home-welcome" aria-labelledby="start-title">
+    <div>
+      <p class="eyebrow">Echte Wege · offene Möglichkeiten</p>
+      <h1 id="start-title">Was möchtest du entdecken?</h1>
+      <p class="lead">Menschen erzählen von ihrer Arbeit und davon, wie sie dorthin gekommen sind.</p>
+    </div>
   </section>
 
-  <section class="home-choices" aria-label="Was möchtest du entdecken?">
-    <article class="home-choice">
-      <p class="kicker">Anschauen · rätseln · fragen</p>
-      <h2>Das komische Dingsda</h2>
-      <img class="choice-image" src="assets/komisches-dingsda.png" alt="Ein Kind untersucht neugierig einen unbekannten Gegenstand" />
-      <p>Ein Erwachsener bringt unbekannte Gegenstände mit. Kinder raten, fragen und entdecken den Beruf dahinter.</p>
-      <div class="button-row"><a class="btn" href="komisches-ding.html"><span aria-hidden="true">?</span> So läuft’s ab</a><a class="btn secondary" href="kontakt.html"><span aria-hidden="true">✉</span> Termin anfragen</a></div>
-    </article>
+  <!-- Die ganze Fläche ist ein Link. So müssen Kinder kein kleines Ziel treffen. -->
+  <section class="home-paths" aria-label="Auswahl">
+    <a class="home-path home-path-main" href="interviews.html">
+      <div class="home-path-copy">
+        <p class="kicker">Lesen &amp; entdecken</p>
+        <h2>Berufe entdecken</h2>
+        <p>Was wollte jemand als Kind werden? Was ist daraus geworden? Und welche Umwege gab es?</p>
+        <strong class="home-path-action">Zu den Interviews <span aria-hidden="true">→</span></strong>
+      </div>
+      <img src="assets/wenn-ich-gross-bin-v2.webp" alt="" />
+    </a>
 
-    <article class="home-choice">
-      <p class="kicker">Lesen & entdecken</p>
-      <h2>Echte Lebenswege</h2>
-      <p>Was wollte jemand als Kind werden? Was ist daraus geworden? Und welche Umwege gab es?</p>
-      <div class="button-row"><a class="btn" href="interviews.html"><span aria-hidden="true">▤</span> Berufe entdecken</a></div>
-    </article>
-  </section>
-
-  <section class="audience-links" aria-label="Weitere Informationen">
-    <a href="fuer-kinder.html"><span aria-hidden="true">☺</span><strong>Für Kinder</strong><small>Was dich hier erwartet</small></a>
-    <a href="fuer-eltern.html"><span aria-hidden="true">◇</span><strong>Für Eltern</strong><small>Haltung und Ablauf</small></a>
-    <a href="fuer-einladende.html"><span aria-hidden="true">▦</span><strong>Für Schulen</strong><small>Das Format einladen</small></a>
+    <a class="home-path home-path-dingsda" href="komisches-ding.html">
+      <div class="home-path-copy">
+        <p class="kicker">Anschauen · rätseln · fragen</p>
+        <h2>Das Dingsda</h2>
+        <p>Kinder untersuchen unbekannte Dinge und entdecken den Beruf dahinter.</p>
+        <strong class="home-path-action">Dingsda öffnen <span aria-hidden="true">→</span></strong>
+      </div>
+      <img src="assets/komisches-dingsda-v2.webp" alt="" />
+    </a>
   </section>
 </main>
 <footer class="footer"><div><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a> · <a href="kontakt.html">Kontakt</a></div></footer>
