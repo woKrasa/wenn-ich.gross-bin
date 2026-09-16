@@ -75,3 +75,5 @@ Kein positives Prüfergebnis behaupten, wenn eine Prüfung nicht ausgeführt wer
 - Lesemenge nur im Interviewbereich wählen lassen.
 - Kinder-Schaltflächen großzügig, vollständig anklickbar und mobil lesbar halten.
 - Den freigegebenen Symbolstand V12 verwenden und nur die für den jeweiligen Bereich benötigten Symbole anzeigen.
+- Für dasselbe Ziel immer exakt dieselbe Symboldatei, Farbe und sichtbare Bezeichnung verwenden; keine nur ähnlichen Ersatzsymbole einsetzen.
+- Den ausgeschriebenen Projektnamen nicht erneut links neben der Hauptnavigation einblenden. Ein Logo erst nach gesonderter Freigabe einsetzen.

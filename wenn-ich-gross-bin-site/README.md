@@ -47,6 +47,8 @@ Die Startseite ist bereits für Kinder gedacht. Deshalb gibt es oben keinen zus�
 
 Auf kleinen Bildschirmen bleiben die drei Kinderziele groß sichtbar. Projektinformationen stehen bewusst getrennt darüber.
 
+Die Symbole sind Teil der Orientierung: Der Koffer bedeutet überall „Berufe“, die Lupe überall „Dingsda“. Deshalb werden in Navigation und Inhaltsüberschriften dieselben Dateien verwendet. Links neben der Navigation steht vorerst kein Projektname; ein späteres Logo wird erst nach eigener Freigabe eingesetzt.
+
 ### Ein neues Interview anlegen
 
 1. `interview-template.html` kopieren und verständlich benennen, zum Beispiel `interview-tischlerin.html`.
@@ -60,7 +62,7 @@ Auf kleinen Bildschirmen bleiben die drei Kinderziele groß sichtbar. Projektinf
 
 ### Die drei Lesefassungen pflegen
 
-Jedes Interview erhält eine ruhige Einstiegsseite mit Bildplätzen, kurzem Berufstext und Auswahl der Textmenge. Die eigentlichen Lesefassungen stehen auf getrennten Seiten. So sehen Grundschulkinder nur den für sie gedachten Text und werden nicht von längeren Fassungen abgelenkt.
+Von der Interviewübersicht führt der Standardweg direkt zur kurzen Grundschulfassung. Dort beginnt das Interview ohne einen weiteren Auswahlklick. Eine kleine Anzeige am Anfang zeigt zusätzlich, dass später längere Fassungen verfügbar sein werden. Die Lesefassungen stehen auf getrennten Seiten, damit Grundschulkinder nicht von längeren Texten abgelenkt werden.
 
 - **Kurz:** Grundschule; kurze Fragen und Antworten, konkrete Wörter, gut zum Vorlesen.
 - **Mehr:** etwa 10–13 Jahre; mehr Stationen, Zusammenhänge und Schwierigkeiten.

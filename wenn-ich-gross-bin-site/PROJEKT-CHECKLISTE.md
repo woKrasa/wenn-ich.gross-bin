@@ -48,6 +48,9 @@ Diese Datei ist die verbindliche Prüfliste für jede größere Änderung an **�
 - [ ] Auf der Startseite ist „Berufe entdecken“ der erste und größere Einstieg. Dingsda bleibt als eigenständiger, erweiterbarer zweiter Einstieg sichtbar.
 - [ ] Große Auswahlflächen sind vollständig anklickbar; ein sichtbarer Handlungstext beschreibt das Ziel zusätzlich.
 - [ ] Kinder-Schaltflächen bleiben auch mobil groß und lesbar. Bei wenig Platz werden Inhalte umgebrochen oder untereinander angeordnet, nicht unleserlich verkleinert.
+- [ ] Dasselbe Ziel verwendet überall exakt dasselbe Symbol und dieselbe Bezeichnung: insbesondere Koffer für Berufe und Lupe für Dingsda.
+- [ ] Die beiden Startbereiche folgen derselben Reihenfolge aus Überschrift, Erklärung, Handlung und zurückhaltendem Orientierungsbild.
+- [ ] Leitbilder unterstützen die Auswahl, dominieren aber weder Überschrift noch Handlung; auf Mobilgeräten bleiben Ziel und Handlung schnell erfassbar.
 
 ## 4. Modernes, zugängliches Web
 
@@ -118,3 +121,4 @@ Eine öffentliche Veröffentlichung erfolgt **nicht**, solange:
 - [ ] Illustrationen, Symbole und Website teilen Konturstärke, Farbrollen und Grundstimmung, ohne konkrete fremde Designs nachzuahmen.
 - [ ] Symbole bleiben auch ohne Farbe verständlich und werden in der Navigation mit sichtbarem Text kombiniert.
 - [ ] Der freigegebene Symbolstand V12 ist die gestalterische Grundlage. Auf einer konkreten Seite werden nur die dort benötigten Symbole eingesetzt.
+- [ ] Ein Logo oder eine Wort-Bild-Marke wird erst nach einer gesonderten Entwurfsfreigabe eingebaut.
