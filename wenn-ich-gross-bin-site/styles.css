@@ -32,7 +32,12 @@ ul { margin: 0 0 14px 20px; }
 
 /* Drei große Kinderziele; Projektinformationen stehen getrennt daneben. */
 .site-header { position: sticky; top: 0; z-index: 1000; border-bottom: 1px solid var(--line); background: rgba(245, 249, 252, .97); }
-.site-nav { max-width: var(--max); margin: auto; padding: 12px 16px; display: grid; grid-template-columns: minmax(420px, 760px) auto; justify-content: center; align-items: center; gap: 18px; }
+.header-inner { max-width: 1280px; margin: auto; padding: 8px 16px; display: grid; grid-template-columns: 170px minmax(0, var(--max)); justify-content: center; align-items: center; gap: 18px; }
+/* Das Logo bleibt ein echter Startseiten-Link und konkurriert nicht mit den drei Kinderzielen. */
+.site-logo { width: 170px; height: 104px; display: grid; place-items: center; border-radius: 14px; }
+.site-logo:hover { background: var(--blue-soft); }
+.site-logo img { width: 100%; height: 100%; object-fit: contain; }
+.site-nav { min-width: 0; display: grid; grid-template-columns: minmax(420px, 760px) auto; justify-content: center; align-items: center; gap: 18px; }
 .child-nav { display: grid; grid-template-columns: repeat(3, minmax(110px, 1fr)); gap: 10px; list-style: none; margin: 0; padding: 0; }
 .child-nav a { min-height: 78px; padding: 8px 14px; display: flex; align-items: center; justify-content: center; gap: 10px; border: 2px solid transparent; border-radius: 16px; color: var(--text); font-size: 1.18rem; font-weight: 800; }
 .child-nav a:hover { border-color: var(--line); background: var(--surface); text-decoration: none; }
@@ -144,9 +149,11 @@ main { max-width: var(--max); margin: auto; padding: 34px 16px 70px; }
 
 .footer { max-width: var(--max); margin: auto; padding: 20px 16px 42px; color: var(--muted); }
 .footer a { text-decoration: underline; }
-body::after { content: "Prototyp V0.6"; position: fixed; right: 9px; bottom: 7px; z-index: 2000; padding: 3px 7px; border: 1px solid var(--line); border-radius: 7px; background: rgba(255, 255, 255, .92); color: var(--muted); font-size: .72rem; font-weight: 750; }
+body::after { content: "Prototyp V0.7"; position: fixed; right: 9px; bottom: 7px; z-index: 2000; padding: 3px 7px; border: 1px solid var(--line); border-radius: 7px; background: rgba(255, 255, 255, .92); color: var(--muted); font-size: .72rem; font-weight: 750; }
 
 @media (max-width: 900px) {
+  .header-inner { grid-template-columns: 145px minmax(0, 1fr); gap: 12px; }
+  .site-logo { width: 145px; height: 96px; }
   .site-nav { grid-template-columns: 1fr auto; }
   .home-path { grid-template-columns: minmax(0, 1fr) minmax(220px, 34%); }
 }
@@ -155,11 +162,13 @@ body::after { content: "Prototyp V0.6"; position: fixed; right: 9px; bottom: 7px
   html { scroll-behavior: auto; }
   body { font-size: 1rem; }
   .site-header { position: static; }
-  .site-nav { padding: 10px 12px; gap: 10px; }
-  .project-nav { grid-column: 1; grid-row: 1; justify-self: end; }
+  .header-inner { padding: 8px 12px 10px; grid-template-columns: 120px 1fr; gap: 8px 10px; }
+  .site-logo { grid-column: 1; grid-row: 1; width: 120px; height: 82px; }
+  .site-nav { display: contents; }
+  .project-nav { grid-column: 2; grid-row: 1; justify-self: end; }
   .project-nav summary { min-height: 44px; font-size: .85rem; }
   .project-links { width: 210px; }
-  .child-nav { grid-column: 1; grid-row: 2; gap: 7px; }
+  .child-nav { grid-column: 1 / -1; grid-row: 2; gap: 7px; }
   .child-nav a { min-height: 82px; padding: 7px 5px; flex-direction: column; gap: 3px; font-size: 1rem; }
   .child-nav img { width: 46px; height: 40px; }
   main { padding: 22px 14px 55px; }

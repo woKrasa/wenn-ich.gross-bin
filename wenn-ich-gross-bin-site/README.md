@@ -26,6 +26,7 @@ Die Website besteht nur aus HTML, CSS und Bildern. Es gibt keinen Build-Schritt,
 - `ueber-das-projekt.html`, `kontakt.html`, `impressum.html`, `datenschutz.html` – Projekt- und Pflichtinformationen
 - `styles.css` – Farben, Abstände, Schriftgrößen und Mobilansicht
 - `assets/` – Bilder
+- `design/` – freigegebene Figuren- und Gestaltungsstudien; diese Dateien dienen als Vorlage und werden nicht direkt als Webseite angezeigt
 - `interviews-redaktion/` – Übergabedokumente und Arbeitsfassungen der Interviews; diese Inhalte gehören zur Redaktion und sind keine eigene Webseite
 
 ## Inhalte pflegen
@@ -77,6 +78,12 @@ In der Grundschul-Fassung sind alle Fragen und Antworten sofort sichtbar. Große
 Das neue Bild in `assets/` speichern. Ein freigegebenes Original nicht überschreiben: eine neue, verständlich versionierte Datei anlegen, zum Beispiel `motiv-v2.png`. Im passenden `<img>`-Element nur den Wert hinter `src=` ändern. Der Text hinter `alt=` beschreibt das Bild für Menschen, die es nicht sehen können, und muss ebenfalls passen. Danach Desktop und Mobilansicht prüfen: Das ganze Motiv und etwaiger Bildtext müssen sichtbar bleiben.
 
 Die kleinen Navigationsbilder liegen ebenfalls unter `assets/` und beginnen mit `icon-`. Symbol und sichtbarer Linktext gehören zusammen. Beim Austausch müssen Bedeutung, Größe und Abstand auf Desktop und Handy geprüft werden.
+
+### Logo und Waschbär pflegen
+
+Das freigegebene Website-Logo liegt unter `assets/logo-wenn-ich-gross-bin-waschbaer-v1.png`. Die zugehörige Körperstudie liegt unter `design/waschbaer-koerperstudie-v1.png`; die fünf einzeln nutzbaren Haltungen liegen zusätzlich unter `design/waschbaer-posen-v1/`. Neue Varianten überschreiben diese Dateien nicht, sondern erhalten eine neue Versionsnummer. Anatomie, Augen, Farben und Größenverhältnis des Waschbären sind zusätzlich in `PROJEKT-CHECKLISTE.md` beschrieben.
+
+Die beiden Leitbilder enthalten den Waschbären noch nicht. Ihre spätere Ergänzung ist ein eigener Gestaltungs- und Freigabeschritt; Hinweise dafür stehen in `WASCHBAER-BILDENTWICKLUNG-UEBERGABE.md`.
 
 ## Vor jeder neuen Version
 

@@ -122,3 +122,9 @@ Eine öffentliche Veröffentlichung erfolgt **nicht**, solange:
 - [ ] Symbole bleiben auch ohne Farbe verständlich und werden in der Navigation mit sichtbarem Text kombiniert.
 - [ ] Der freigegebene Symbolstand V12 ist die gestalterische Grundlage. Auf einer konkreten Seite werden nur die dort benötigten Symbole eingesetzt.
 - [ ] Ein Logo oder eine Wort-Bild-Marke wird erst nach einer gesonderten Entwurfsfreigabe eingebaut.
+- [ ] Der Waschbär bleibt in allen Bildern derselbe kleine, ermutigende Begleiter; Gesicht, Maske, Farben, Augen und Größenverhältnis folgen der freigegebenen Figurenstudie.
+- [ ] Winkende und hängende Posen zeigen schmale Gelenke und trichterförmig breiter werdende Fellkonturen statt runder Schlaucharme oder angesetzter Plüschpfoten.
+- [ ] Sitzende Posen bleiben tierisch: Vorderbeine, Hinterbeine und Rumpf sind durch flache Konturen oder zurückhaltende Schattierung lesbar, ohne menschliche Armhaltung oder 3D-Effekt.
+- [ ] In der kompakten Frontalhaltung gehen die breiten oberen Vorderbeine in Brust und Rumpf über und verjüngen sich erst unten zu schmalen Gelenken. Der kurze Schattenkanal liegt nur zwischen den unteren Vorderbeinen; er endet weich und stumpf in der unteren Rumpfhälfte.
+- [ ] Der kleine blaugraue Augenreflex bleibt gedämpft; es gibt keine weiße Augenhaut, Glanzbögen, Leuchteffekte oder wechselnde Augenstile.
+- [ ] Das freigegebene Kletterlogo darf eine eigene, zur Haltung passende Silhouette verwenden; unsichtbare Gelenke werden dort nicht künstlich hervorgehoben.

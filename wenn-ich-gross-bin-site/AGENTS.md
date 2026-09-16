@@ -66,6 +66,13 @@ Kein positives Prüfergebnis behaupten, wenn eine Prüfung nicht ausgeführt wer
 - Neue Bildvarianten auf Desktop und Mobil gegen Motiv, Figuren, Gegenstände, Text, Alternativtext, Dateigröße und sichtbare Qualität prüfen.
 - Der Stil soll freundlich, klar, eigenständig und leicht handgezeichnet wirken, zugleich geglättet und konsistent. Konkrete fremde Designs werden nicht nachgeahmt.
 - Symbole mit sichtbarer Beschriftung kombinieren und erst nach ausdrücklicher Freigabe in die Website übernehmen.
+- Der Waschbär ist eine kleine, ermutigende Begleitfigur und keine Lehr- oder Autoritätsperson. Er bleibt deutlich kleiner als ein Grundschulkind.
+- Für winkende und hängende Haltungen gelten sehr schmale Hand- und Fußgelenke sowie trichter- beziehungsweise dreiecksförmig zum Körper breiter werdende Fellkonturen. Hände und Füße bleiben klein und leicht länglich.
+- Beim sitzenden Waschbären heißen die vorderen Gliedmaßen Vorderbeine. Sie bleiben in die tierische Körperform eingebunden und dürfen nicht wie menschlich angesetzte Arme wirken. In der kompakten Frontalhaltung verschmelzen ihre breiten oberen Fellflächen mit der Brust und verjüngen sich erst unten zu schmalen Gelenken und kleinen Pfoten.
+- Zwischen den eng stehenden Vorderbeinen darf ein kurzer, weicher, annähernd balkenförmiger Schattenkanal liegen. Er beginnt oberhalb der Pfoten, endet stumpf in der unteren Rumpfhälfte und ersetzt eine harte Trennlinie; Hals und obere Brust bleiben ungeteilt.
+- Je nach Haltung müssen die schmalen Gelenke nicht sichtbar sein. Insbesondere das freigegebene Kletterlogo wird nicht nachträglich anatomisch umgebaut.
+- Die Augen bleiben dunkle blaue Ovale mit einem kleinen, gedämpften blaugrauen Reflex. Keine weiße Augenhaut, Glanzbögen oder erschrocken wirkende Augen ergänzen.
+- Verbindliche Figurenstudien liegen unter `design/`; veröffentlichte Logo- und Bilddateien liegen unter `assets/`.
 
 ## Verbindliche Navigationsstruktur
 
