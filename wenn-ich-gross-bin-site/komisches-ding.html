@@ -5,106 +5,86 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Das komische Ding – Wenn ich groß bin …</title>
   <meta name="description" content="Ein Ratespiel-Besuch: Erwachsene bringen Gegenstände mit, Kinder raten, fragen und entdecken Berufe." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 <a class="skip-link" href="#content">Zum Inhalt springen</a>
 
-<header>
-  <nav class="nav" aria-label="Hauptnavigation">
-    <div class="brand">
-      <a href="index.html">Wenn ich groß bin …</a>
-      <small>… und das komische Ding</small>
-    </div>
-    <ul>
-      <li><a href="komisches-ding.html" aria-current="page">Das komische Ding</a></li>
-      <li><a href="interviews.html">Interviews</a></li>
-      <li><a href="fuer-kinder.html">Für Kinder</a></li>
-      <li><a href="fuer-eltern.html">Für Eltern</a></li>
-      <li><a href="fuer-einladende.html">Für Einladende</a></li>
-      <li><a href="ueber-das-projekt.html">Über das Projekt</a></li>
-      <li><a href="kontakt.html">Kontakt</a></li>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="site-logo" href="index.html" aria-label="Wenn ich groß bin – zur Startseite">
+      <img src="assets/logo-wenn-ich-gross-bin-waschbaer-v1.png" alt="Wenn ich groß bin …" />
+    </a>
+    <nav class="site-nav" aria-label="Hauptnavigation">
+    <ul class="child-nav">
+      <li><a href="index.html"><img src="assets/icon-start.svg" alt="" /><span>Start</span></a></li>
+      <li><a href="interviews.html"><img src="assets/icon-berufe.svg" alt="" /><span>Berufe</span></a></li>
+      <li><a href="komisches-ding.html" aria-current="page"><img src="assets/icon-dingsda.svg" alt="" /><span>Dingsda</span></a></li>
     </ul>
-  </nav>
+    <details class="project-nav">
+      <summary>Projekt &amp; Erwachsene</summary>
+      <div class="project-links">
+        <a href="fuer-eltern.html">Für Eltern</a>
+        <a href="fuer-einladende.html">Für Schulen</a>
+        <a href="ueber-das-projekt.html">Über das Projekt</a>
+        <a href="kontakt.html">Kontakt</a>
+      </div>
+    </details>
+    </nav>
+  </div>
 </header>
 
 <main id="content">
-<section class="hero">
-  <h1>Das komische Ding</h1>
-  <p>
-    Ein Erwachsener besucht eine Kindergruppe und bringt 2–3 „komische Dinge“ mit.
-    Die Kinder rätseln in Teams, wofür sie sind, dürfen Fragen stellen (auch lustige!) –
-    und hören dann die echte Geschichte aus dem Berufsalltag.
-  </p>
-  <p>
-    <a class="btn" href="kontakt.html">Termin anfragen</a>
-    <a class="btn secondary" href="interviews.html">Erst Interviews ansehen</a>
-  </p>
+<section class="hero dingsda-intro">
+  <div>
+    <p class="eyebrow">Anschauen · rätseln · fragen</p>
+    <h1>Das komische Dingsda</h1>
+    <p class="lead">Ein Erwachsener bringt geheimnisvolle Dinge aus seinem Beruf mit. Du darfst genau hinschauen, gemeinsam rätseln und alles fragen, was du wissen möchtest.</p>
+  </div>
+  <img src="assets/komisches-dingsda-waschbaer-v3.webp" alt="Ein Kind untersucht mit einer Lupe die Gegenstände eines Erwachsenen; ein kleiner Waschbär rätselt mit" />
 </section>
 
-<div class="grid">
-  <section class="card span-8" aria-label="Ablauf">
-    <p class="kicker">Ablauf (Beispiel 60–90 Minuten)</p>
-    <ol>
-      <li><strong>Kurz kennenlernen</strong> (Mini-Interview: „Was wolltest du als Kind werden?“)</li>
-      <li><strong>Komisches Ding #1</strong>: Gruppenberatung → Fragen → Vermutungen</li>
-      <li><strong>Auflösung</strong>: Was ist es wirklich? Wofür braucht man es? Eine kleine Geschichte dazu</li>
-      <li><strong>Komisches Ding #2</strong> (und ggf. #3): wiederholen</li>
-      <li><strong>Abschluss</strong>: „Was hat euch überrascht?“ / „Was würdet ihr noch gern wissen?“</li>
-    </ol>
-    <div class="notice">
-      <strong>Wichtig:</strong> Es geht nicht um „Gewinnen“ oder „Verlieren“. Wir spielen gemeinsam.
-      Jede Idee darf sein – auch wenn sie verrückt ist.
-    </div>
-  </section>
+<section class="dingsda-example" aria-labelledby="example-title">
+  <p class="example-label">Ein Beispiel – so könnte ein Besuch ablaufen</p>
+  <h2 id="example-title">Vier Schritte beim Dingsda</h2>
+  <div class="dingsda-steps">
+    <article class="card"><span aria-hidden="true">1</span><h3>Genau anschauen</h3><p>Was siehst du? Wie fühlt es sich an? Was könnte man damit machen?</p></article>
+    <article class="card"><span aria-hidden="true">2</span><h3>Gemeinsam rätseln</h3><p>Ihr sammelt Ideen. Auch eine verrückte Vermutung darf dabei sein.</p></article>
+    <article class="card"><span aria-hidden="true">3</span><h3>Fragen stellen</h3><p>Du kannst nach einem Tipp fragen oder etwas über die Arbeit wissen wollen.</p></article>
+    <article class="card"><span aria-hidden="true">4</span><h3>Geschichte erfahren</h3><p>Der Gast löst das Rätsel und erzählt, wozu das Ding im Beruf gehört.</p></article>
+  </div>
+  <p class="notice promise"><strong>Wichtig:</strong> Niemand muss gewinnen. Ihr entdeckt die Lösung gemeinsam – und jede Idee darf erst einmal ausgesprochen werden.</p>
+</section>
 
-  <aside class="card span-4" aria-label="Eckdaten">
-    <p class="kicker">Eckdaten</p>
-    <ul>
-      <li><strong>Zielgruppe:</strong> Grundschule (z. B. 3./4. Klasse) oder 8–11 Jahre</li>
-      <li><strong>Gruppengröße:</strong> bis ca. 25 (Klasse) – anderes nach Absprache</li>
-      <li><strong>Ort:</strong> Schule, Verein, Bibliothek, Jugendzentrum …</li>
-      <li><strong>Technik:</strong> meistens keine</li>
-    </ul>
-    <div class="hr"></div>
-    <p class="kicker">Was wir brauchen</p>
-    <ul>
-      <li>Einen Raum und eine Ansprechperson vor Ort</li>
-      <li>Etwas Zeit für Terminabstimmung</li>
-    </ul>
-  </aside>
+<section class="card dingsda-questions" aria-labelledby="questions-title">
+  <h2 id="questions-title">Was könntest du fragen?</h2>
+  <ul>
+    <li>Benutzt du das Ding jeden Tag?</li>
+    <li>Was war daran am Anfang schwierig?</li>
+    <li>Was macht dir bei deiner Arbeit besonders Spaß?</li>
+  </ul>
+  <p>Vielleicht fällt dir noch eine ganz andere Frage ein.</p>
+</section>
 
-  <section class="card span-12" aria-label="Gegenstände">
-    <p class="kicker">Welche „Dinge“ eignen sich?</p>
-    <p>
-      Sehr gut sind klassische Arbeitsgegenstände (Werkzeug, Material, Schutzkleidung).
-      Aber auch Alltags- oder Symbol-Dinge sind willkommen: z. B. eine Brotdose, wenn das gemeinsame Essen
-      das Schönste am Job ist. Wichtig ist nur: Der Gegenstand erzählt eine Geschichte.
-    </p>
-    <div class="grid">
-      <div class="card span-4">
-        <h3>🛠 Arbeitsding</h3>
-        <p>Werkzeug, Materialprobe, Plan, Handschuh …</p>
-      </div>
-      <div class="card span-4">
-        <h3>💛 Alltagsding</h3>
-        <p>Kalender, Notizbuch, Brotdose, Kaffeebecher …</p>
-      </div>
-      <div class="card span-4">
-        <h3>🌈 Symbol-Ding</h3>
-        <p>Foto, Glücksbringer, kleines Modell – etwas, das „warum ich das mag“ zeigt.</p>
-      </div>
-    </div>
-  </section>
-</div>
+<details class="card adult-info">
+  <summary>Informationen für Erwachsene</summary>
+  <div class="adult-info-body">
+    <p>Ein Besuch dauert meistens 60–90 Minuten und eignet sich für Grundschulgruppen. Ein Erwachsener bringt zwei oder drei ungefährliche Gegenstände mit, die eine Geschichte aus dem Berufsalltag erzählen.</p>
+    <p>Benötigt werden ein Raum, eine Ansprechperson vor Ort und etwas Zeit für die Terminabstimmung. Technik ist meistens nicht erforderlich.</p>
+    <p><a class="btn" href="kontakt.html">Termin anfragen</a></p>
+  </div>
+</details>
 </main>
 
 <footer class="footer">
-  <div>
+  <div class="footer-links">
     <a href="impressum.html">Impressum</a> ·
     <a href="datenschutz.html">Datenschutz</a> ·
+    <a href="bildnachweise-rechte.html">Bildnachweise &amp; Rechte</a> ·
     <a href="kontakt.html">Kontakt</a>
   </div>
+  <p class="footer-rights">© 2026 Wenn ich groß bin …</p>
 </footer>
 </body>
 </html>

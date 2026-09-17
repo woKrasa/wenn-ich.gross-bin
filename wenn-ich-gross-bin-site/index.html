@@ -4,115 +4,68 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Wenn ich groß bin …</title>
-  <meta name="description" content="Geschichten über Berufe für Kinder – und das spielerische Format ‚Das komische Ding‘." />
+  <meta name="description" content="Echte Berufs- und Lebenswege für Kinder." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 <a class="skip-link" href="#content">Zum Inhalt springen</a>
-
-<header>
-  <nav class="nav" aria-label="Hauptnavigation">
-    <div class="brand">
-      <a href="index.html">Wenn ich groß bin …</a>
-      <small>… und das komische Ding</small>
-    </div>
-    <ul>
-      <li><a href="komisches-ding.html">Das komische Ding</a></li>
-      <li><a href="interviews.html">Interviews</a></li>
-      <li><a href="fuer-kinder.html">Für Kinder</a></li>
-      <li><a href="fuer-eltern.html">Für Eltern</a></li>
-      <li><a href="fuer-einladende.html">Für Einladende</a></li>
-      <li><a href="ueber-das-projekt.html">Über das Projekt</a></li>
-      <li><a href="kontakt.html">Kontakt</a></li>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="site-logo" href="index.html" aria-label="Wenn ich groß bin – zur Startseite">
+      <img src="assets/logo-wenn-ich-gross-bin-waschbaer-v1.png" alt="Wenn ich groß bin …" />
+    </a>
+    <nav class="site-nav" aria-label="Hauptnavigation">
+    <ul class="child-nav">
+      <li><a href="index.html" aria-current="page"><img src="assets/icon-start.svg" alt="" /><span>Start</span></a></li>
+      <li><a href="interviews.html"><img src="assets/icon-berufe.svg" alt="" /><span>Berufe</span></a></li>
+      <li><a href="komisches-ding.html"><img src="assets/icon-dingsda.svg" alt="" /><span>Dingsda</span></a></li>
     </ul>
-  </nav>
+    <details class="project-nav">
+      <summary>Projekt &amp; Erwachsene</summary>
+      <div class="project-links">
+        <a href="fuer-eltern.html">Für Eltern</a>
+        <a href="fuer-einladende.html">Für Schulen</a>
+        <a href="ueber-das-projekt.html">Über das Projekt</a>
+        <a href="kontakt.html">Kontakt</a>
+      </div>
+    </details>
+    </nav>
+  </div>
 </header>
-
 <main id="content">
-<section class="hero" aria-label="Einführung">
-  <img src="assets/wenn-ich-gross-bin.png" alt="Illustration: Kind und Erwachsener sprechen über Zukunft und Berufe" style="max-width:100%;border-radius:16px;border:1px solid var(--line);margin-bottom:18px;" />
-  <h1>Wenn ich groß bin …</h1>
-  <p>
-    Eine Sammlung von Lebensgeschichten aus echten Berufen – für Grundschulkinder.
-    Erwachsene erzählen, wie ihr Weg wirklich war: mit Umwegen, Überraschungen und Dingen,
-    die sie erst später verstanden haben.
-  </p>
+  <section class="home-welcome" aria-labelledby="start-title">
+    <div>
+      <p class="eyebrow">Echte Wege · offene Möglichkeiten</p>
+      <h1 id="start-title">Was möchtest du entdecken?</h1>
+      <p class="lead">Menschen erzählen von ihrer Arbeit und davon, wie sie dorthin gekommen sind.</p>
+    </div>
+  </section>
 
-  <div class="grid" role="list">
-    <div class="card span-6" role="listitem">
-      <p class="kicker">Aktionstag</p>
-      <h2>Das komische Ding</h2>
-      <img src="assets/komisches-dingsda.png" alt="Illustration: Kind als Detektiv errät ein komisches Ding" style="max-width:100%;border-radius:16px;border:1px solid var(--line);margin:10px 0 12px;" />
-      <p>
-        Ein Erwachsener bringt 2–3 Gegenstände mit. Die Kinder raten in Gruppen,
-        stellen Fragen und entdecken so spielerisch, was ein Beruf ausmacht.
-      </p>
-      <p>
-        <a class="btn" href="komisches-ding.html">So läuft’s ab</a>
-        <a class="btn secondary" href="kontakt.html">Termin anfragen</a>
-      </p>
-      <div class="tagrow" aria-label="Eigenschaften">
-        <span class="tag">spielerisch</span>
-        <span class="tag">aktiv</span>
-        <span class="tag">ohne Leistungsdruck</span>
+  <!-- Die ganze Fläche ist ein Link. So müssen Kinder kein kleines Ziel treffen. -->
+  <section class="home-paths" aria-label="Auswahl">
+    <a class="home-path home-path-main" href="interviews.html">
+      <div class="home-path-copy">
+        <h2>Berufe entdecken <img class="home-path-icon" src="assets/icon-berufe.svg" alt="" /></h2>
+        <p>Was wollte jemand als Kind werden? Was ist daraus geworden? Und welche Umwege gab es?</p>
+        <strong class="home-path-action">Zu den Interviews <span aria-hidden="true">→</span></strong>
       </div>
-    </div>
+      <img src="assets/wenn-ich-gross-bin-waschbaer-v3.webp" alt="" />
+    </a>
 
-    <div class="card span-6" role="listitem">
-      <p class="kicker">Lesen & stöbern</p>
-      <h2>Interviews</h2>
-      <p>
-        Was wollte ich als Kind werden? Was bin ich geworden? Was liebe ich an meinem Job –
-        und was hat mir Schule später doch gebracht?
-      </p>
-      <p>
-        <a class="btn" href="interviews.html">Interviews ansehen</a>
-        <a class="btn secondary" href="fuer-kinder.html">Für Kinder</a>
-      </p>
-      <div class="tagrow" aria-label="Eigenschaften">
-        <span class="tag">nahbar</span>
-        <span class="tag">vielfältig</span>
-        <span class="tag">ehrlich</span>
+    <a class="home-path home-path-dingsda" href="komisches-ding.html">
+      <div class="home-path-copy">
+        <h2>Das Dingsda <img class="home-path-icon" src="assets/icon-dingsda.svg" alt="" /></h2>
+        <p>Kinder untersuchen unbekannte Dinge und entdecken den Beruf dahinter.</p>
+        <strong class="home-path-action">Zum Dingsda <span aria-hidden="true">→</span></strong>
       </div>
-    </div>
-
-    <div class="card span-4">
-      <p class="kicker">Für Kinder</p>
-      <h2>Neugierig sein</h2>
-      <p>Hier steht kurz und einfach, was passiert – und warum es Spaß macht.</p>
-      <p><a class="btn secondary" href="fuer-kinder.html">Zu „Für Kinder“</a></p>
-    </div>
-
-    <div class="card span-4">
-      <p class="kicker">Für Eltern</p>
-      <h2>Vertrauen & Ablauf</h2>
-      <p>Worum es geht, wie ein Termin abläuft und welche Grenzen wir setzen.</p>
-      <p><a class="btn secondary" href="fuer-eltern.html">Zu „Für Eltern“</a></p>
-    </div>
-
-    <div class="card span-4">
-      <p class="kicker">Für Einladende</p>
-      <h2>Schulen & Vereine</h2>
-      <p>Format, Aufwand, Voraussetzungen – und wie man uns einlädt.</p>
-      <p><a class="btn secondary" href="fuer-einladende.html">Zu „Für Einladende“</a></p>
-    </div>
-  </div>
-
-  <div class="hr" role="separator"></div>
-
-  <div class="notice">
-    <strong>Wichtig:</strong> Dieses Projekt ist kein Test und keine Berufsberatung.
-    Es geht um Zukunftsbilder, Neugier und echte Lebenswege – ohne Druck.
-  </div>
-</section>
+      <img src="assets/komisches-dingsda-waschbaer-v3.webp" alt="" />
+    </a>
+  </section>
 </main>
-
 <footer class="footer">
-  <div>
-    <a href="impressum.html">Impressum</a> ·
-    <a href="datenschutz.html">Datenschutz</a> ·
-    <a href="kontakt.html">Kontakt</a>
-  </div>
+  <div class="footer-links"><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a> · <a href="bildnachweise-rechte.html">Bildnachweise &amp; Rechte</a> · <a href="kontakt.html">Kontakt</a></div>
+  <p class="footer-rights">© 2026 Wenn ich groß bin …</p>
 </footer>
 </body>
 </html>

@@ -5,27 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Für Eltern – Wenn ich groß bin …</title>
   <meta name="description" content="Für Eltern." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 <a class="skip-link" href="#content">Zum Inhalt springen</a>
 
-<header>
-  <nav class="nav" aria-label="Hauptnavigation">
-    <div class="brand">
-      <a href="index.html">Wenn ich groß bin …</a>
-      <small>… und das komische Ding</small>
-    </div>
-    <ul>
-      <li><a href="komisches-ding.html">Das komische Ding</a></li>
-      <li><a href="interviews.html">Interviews</a></li>
-      <li><a href="fuer-kinder.html">Für Kinder</a></li>
-      <li><a href="fuer-eltern.html" aria-current="page">Für Eltern</a></li>
-      <li><a href="fuer-einladende.html">Für Einladende</a></li>
-      <li><a href="ueber-das-projekt.html">Über das Projekt</a></li>
-      <li><a href="kontakt.html">Kontakt</a></li>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="site-logo" href="index.html" aria-label="Wenn ich groß bin – zur Startseite">
+      <img src="assets/logo-wenn-ich-gross-bin-waschbaer-v1.png" alt="Wenn ich groß bin …" />
+    </a>
+    <nav class="site-nav" aria-label="Hauptnavigation">
+    <ul class="child-nav">
+      <li><a href="index.html"><img src="assets/icon-start.svg" alt="" /><span>Start</span></a></li>
+      <li><a href="interviews.html"><img src="assets/icon-berufe.svg" alt="" /><span>Berufe</span></a></li>
+      <li><a href="komisches-ding.html"><img src="assets/icon-dingsda.svg" alt="" /><span>Dingsda</span></a></li>
     </ul>
-  </nav>
+    <details class="project-nav has-current">
+      <summary>Projekt &amp; Erwachsene</summary>
+      <div class="project-links">
+        <a href="fuer-eltern.html" aria-current="page">Für Eltern</a>
+        <a href="fuer-einladende.html">Für Schulen</a>
+        <a href="ueber-das-projekt.html">Über das Projekt</a>
+        <a href="kontakt.html">Kontakt</a>
+      </div>
+    </details>
+    </nav>
+  </div>
 </header>
 
 <main id="content">
@@ -36,6 +43,7 @@
     sondern um <strong>Neugier</strong>, <strong>Selbstvertrauen</strong> und <strong>realistische Zukunftsbilder</strong>.
     Kinder erleben: Lebenswege sind selten gerade – und Arbeit kann viele Formen haben.
   </p>
+  <p class="notice promise">Das Projekt diagnostiziert keine Interessen oder Begabungen und gibt Kindern keine Berufs-Etiketten. Es öffnet Gespräche und Möglichkeiten.</p>
 </section>
 
 <div class="grid">
@@ -70,17 +78,32 @@
     <div class="notice">
       Wenn Sie Fragen oder Bedenken haben: Melden Sie sich gern. Transparenz ist uns wichtig.
     </div>
-    <p style="margin-top:12px;"><a class="btn" href="kontakt.html">Kontakt</a></p>
+  </section>
+
+  <section class="card span-6">
+    <p class="kicker">Fragen, Wünsche und Anregungen</p>
+    <h2>Was möchten Sie wissen?</h2>
+    <p>Sie können nachfragen, Hinweise geben oder erzählen, was Ihrem Kind bei der Begegnung mit Berufen helfen würde.</p>
+    <p><a class="btn secondary" href="kontakt.html">Nachricht schreiben</a></p>
+  </section>
+
+  <section class="card span-6">
+    <p class="kicker">Mitmachen</p>
+    <h2>Einen Berufsweg teilen</h2>
+    <p>Eltern und andere Erwachsene können einen Beruf vorstellen, von Umwegen erzählen oder ein „komisches Ding“ aus ihrem Arbeitsalltag mitbringen.</p>
+    <p><a class="btn" href="kontakt.html">Interesse mitteilen</a></p>
   </section>
 </div>
 </main>
 
 <footer class="footer">
-  <div>
+  <div class="footer-links">
     <a href="impressum.html">Impressum</a> ·
     <a href="datenschutz.html">Datenschutz</a> ·
+    <a href="bildnachweise-rechte.html">Bildnachweise &amp; Rechte</a> ·
     <a href="kontakt.html">Kontakt</a>
   </div>
+  <p class="footer-rights">© 2026 Wenn ich groß bin …</p>
 </footer>
 </body>
 </html>

@@ -3,82 +3,70 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Interviews – Wenn ich groß bin …</title>
-  <meta name="description" content="Interviews über Lebenswege und Berufe." />
+  <title>Berufe entdecken – Wenn ich groß bin …</title>
+  <meta name="description" content="Echte Interviews über Berufe und Lebenswege." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 <a class="skip-link" href="#content">Zum Inhalt springen</a>
-
-<header>
-  <nav class="nav" aria-label="Hauptnavigation">
-    <div class="brand">
-      <a href="index.html">Wenn ich groß bin …</a>
-      <small>… und das komische Ding</small>
-    </div>
-    <ul>
-      <li><a href="komisches-ding.html">Das komische Ding</a></li>
-      <li><a href="interviews.html" aria-current="page">Interviews</a></li>
-      <li><a href="fuer-kinder.html">Für Kinder</a></li>
-      <li><a href="fuer-eltern.html">Für Eltern</a></li>
-      <li><a href="fuer-einladende.html">Für Einladende</a></li>
-      <li><a href="ueber-das-projekt.html">Über das Projekt</a></li>
-      <li><a href="kontakt.html">Kontakt</a></li>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="site-logo" href="index.html" aria-label="Wenn ich groß bin – zur Startseite">
+      <img src="assets/logo-wenn-ich-gross-bin-waschbaer-v1.png" alt="Wenn ich groß bin …" />
+    </a>
+    <nav class="site-nav" aria-label="Hauptnavigation">
+    <ul class="child-nav">
+      <li><a href="index.html"><img src="assets/icon-start.svg" alt="" /><span>Start</span></a></li>
+      <li><a href="interviews.html" aria-current="page"><img src="assets/icon-berufe.svg" alt="" /><span>Berufe</span></a></li>
+      <li><a href="komisches-ding.html"><img src="assets/icon-dingsda.svg" alt="" /><span>Dingsda</span></a></li>
     </ul>
-  </nav>
-</header>
-
-<main id="content">
-<section class="hero">
-  <h1>Interviews</h1>
-  <p>
-    Echte Lebenswege: Was wollte ich als Kind werden? Was wurde daraus? Was liebe ich an meinem Beruf –
-    und was hat mir Schule später doch gebracht?
-  </p>
-  <p class="notice">
-    Tipp: Für die ersten Gespräche mit Schulen reicht oft schon eine kleine Auswahl (2–4 Interviews).
-    Du kannst hier jederzeit erweitern.
-  </p>
-</section>
-
-<div class="hr" role="separator"></div>
-
-<section aria-label="Interview-Liste" class="interview-list">
-  <article class="interview-card">
-    <div class="thumb" aria-hidden="true">Foto</div>
-    <div>
-      <h3><a href="interview-template.html">Vorname Nachname</a></h3>
-      <p><strong>Beruf:</strong> Hebamme</p>
-      <p>„Als Kind wollte ich … – heute liebe ich …“</p>
-    </div>
-  </article>
-
-  <article class="interview-card">
-    <div class="thumb" aria-hidden="true">Foto</div>
-    <div>
-      <h3><a href="interview-template.html">Vorname Nachname</a></h3>
-      <p><strong>Beruf:</strong> Handwerker / Zimmermann</p>
-      <p>„Ich baue Dinge, die man anfassen kann …“</p>
-    </div>
-  </article>
-
-  <article class="interview-card">
-    <div class="thumb" aria-hidden="true">Foto</div>
-    <div>
-      <h3><a href="interview-template.html">Vorname Nachname</a></h3>
-      <p><strong>Beruf:</strong> Erzieherin</p>
-      <p>„Man lernt jeden Tag etwas Neues – auch von Kindern.“</p>
-    </div>
-  </article>
-</section>
-</main>
-
-<footer class="footer">
-  <div>
-    <a href="impressum.html">Impressum</a> ·
-    <a href="datenschutz.html">Datenschutz</a> ·
-    <a href="kontakt.html">Kontakt</a>
+    <details class="project-nav">
+      <summary>Projekt &amp; Erwachsene</summary>
+      <div class="project-links">
+        <a href="fuer-eltern.html">Für Eltern</a>
+        <a href="fuer-einladende.html">Für Schulen</a>
+        <a href="ueber-das-projekt.html">Über das Projekt</a>
+        <a href="kontakt.html">Kontakt</a>
+      </div>
+    </details>
+    </nav>
   </div>
+</header>
+<main id="content">
+  <section class="page-intro page-intro-with-image">
+    <div><p class="eyebrow">Echte Menschen · echte Wege</p>
+    <h1>Berufe entdecken</h1>
+    <p class="lead">Was wollte jemand als Kind werden? Was ist daraus geworden? Und was macht die Person heute?</p></div>
+    <img src="assets/wenn-ich-gross-bin-waschbaer-v3.webp" alt="Ein Kind und ein Erwachsener sprechen über Zukunft und Berufe; ein kleiner Waschbär sitzt auf der Schulter des Erwachsenen" />
+  </section>
+
+  <nav class="reading-filter" aria-label="Textmenge auswählen">
+    <p>Wie viel möchtest du lesen?</p>
+    <div>
+      <a class="reading-choice is-current" href="#kurz"><img src="assets/icon-kurz-lesen.svg" alt="" /><strong>Kurz lesen</strong><small>Grundschule</small></a>
+      <span class="reading-choice is-disabled" aria-disabled="true"><img src="assets/icon-mehr-lesen.svg" alt="" /><strong>Mehr lesen</strong><small>10–13 · folgt</small></span>
+      <span class="reading-choice is-disabled" aria-disabled="true"><img src="assets/icon-alles-lesen.svg" alt="" /><strong>Alles lesen</strong><small>ab 14 · folgt</small></span>
+    </div>
+  </nav>
+
+  <section id="kurz" aria-labelledby="kurz-title">
+    <h2 id="kurz-title" class="section-title">Kurz lesen</h2>
+    <a class="interview-preview" href="interview-erzieherin-grundschule.html">
+      <div class="preview-images" aria-hidden="true"><span>Foto folgt</span><span>Gemaltes Bild folgt</span></div>
+      <div>
+        <p class="kicker">Erzieherin</p>
+        <h3>Viel mehr als Spielen</h3>
+        <p>Sie begleitet Kinder beim Großwerden. Ihr eigener Weg führte über mehrere andere Berufe.</p>
+        <strong class="card-action">Interview lesen <span aria-hidden="true">→</span></strong>
+      </div>
+      <img class="interview-preview-symbol" src="assets/waschbaer-interview-lesen-v1.png" alt="" />
+    </a>
+  </section>
+</main>
+<footer class="footer">
+  <div class="footer-links"><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a> · <a href="bildnachweise-rechte.html">Bildnachweise &amp; Rechte</a> · <a href="kontakt.html">Kontakt</a></div>
+  <p class="footer-rights">© 2026 Wenn ich groß bin …</p>
 </footer>
 </body>
 </html>

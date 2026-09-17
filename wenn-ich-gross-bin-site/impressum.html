@@ -5,27 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Impressum – Wenn ich groß bin …</title>
   <meta name="description" content="Impressum." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 <a class="skip-link" href="#content">Zum Inhalt springen</a>
 
-<header>
-  <nav class="nav" aria-label="Hauptnavigation">
-    <div class="brand">
-      <a href="index.html">Wenn ich groß bin …</a>
-      <small>… und das komische Ding</small>
-    </div>
-    <ul>
-      <li><a href="komisches-ding.html">Das komische Ding</a></li>
-      <li><a href="interviews.html">Interviews</a></li>
-      <li><a href="fuer-kinder.html">Für Kinder</a></li>
-      <li><a href="fuer-eltern.html">Für Eltern</a></li>
-      <li><a href="fuer-einladende.html">Für Einladende</a></li>
-      <li><a href="ueber-das-projekt.html">Über das Projekt</a></li>
-      <li><a href="kontakt.html">Kontakt</a></li>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="site-logo" href="index.html" aria-label="Wenn ich groß bin – zur Startseite">
+      <img src="assets/logo-wenn-ich-gross-bin-waschbaer-v1.png" alt="Wenn ich groß bin …" />
+    </a>
+    <nav class="site-nav" aria-label="Hauptnavigation">
+    <ul class="child-nav">
+      <li><a href="index.html"><img src="assets/icon-start.svg" alt="" /><span>Start</span></a></li>
+      <li><a href="interviews.html"><img src="assets/icon-berufe.svg" alt="" /><span>Berufe</span></a></li>
+      <li><a href="komisches-ding.html"><img src="assets/icon-dingsda.svg" alt="" /><span>Dingsda</span></a></li>
     </ul>
-  </nav>
+    <details class="project-nav">
+      <summary>Projekt &amp; Erwachsene</summary>
+      <div class="project-links">
+        <a href="fuer-eltern.html">Für Eltern</a>
+        <a href="fuer-einladende.html">Für Schulen</a>
+        <a href="ueber-das-projekt.html">Über das Projekt</a>
+        <a href="kontakt.html">Kontakt</a>
+      </div>
+    </details>
+    </nav>
+  </div>
 </header>
 
 <main id="content">
@@ -38,7 +45,7 @@
 </section>
 
 <section class="card">
-  <h2>Angaben gemäß § 5 TMG</h2>
+  <h2>Angaben gemäß § 5 DDG</h2>
   <p>
     <strong>Name:</strong> (dein Name / Projektinitiative)<br>
     <strong>Adresse:</strong> (Straße, Hausnummer, PLZ, Ort)<br>
@@ -49,11 +56,13 @@
 </main>
 
 <footer class="footer">
-  <div>
+  <div class="footer-links">
     <a href="impressum.html">Impressum</a> ·
     <a href="datenschutz.html">Datenschutz</a> ·
+    <a href="bildnachweise-rechte.html">Bildnachweise &amp; Rechte</a> ·
     <a href="kontakt.html">Kontakt</a>
   </div>
+  <p class="footer-rights">© 2026 Wenn ich groß bin …</p>
 </footer>
 </body>
 </html>

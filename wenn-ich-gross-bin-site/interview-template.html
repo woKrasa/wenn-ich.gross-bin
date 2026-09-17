@@ -5,30 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Interview – Wenn ich groß bin …</title>
   <meta name="description" content="Interview-Vorlage." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 <a class="skip-link" href="#content">Zum Inhalt springen</a>
 
-<header>
-  <nav class="nav" aria-label="Hauptnavigation">
-    <div class="brand">
-      <a href="index.html">Wenn ich groß bin …</a>
-      <small>… und das komische Ding</small>
-    </div>
-    <ul>
-      <li><a href="komisches-ding.html">Das komische Ding</a></li>
-      <li><a href="interviews.html" aria-current="page">Interviews</a></li>
-      <li><a href="fuer-kinder.html">Für Kinder</a></li>
-      <li><a href="fuer-eltern.html">Für Eltern</a></li>
-      <li><a href="fuer-einladende.html">Für Einladende</a></li>
-      <li><a href="ueber-das-projekt.html">Über das Projekt</a></li>
-      <li><a href="kontakt.html">Kontakt</a></li>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="site-logo" href="index.html" aria-label="Wenn ich groß bin – zur Startseite">
+      <img src="assets/logo-wenn-ich-gross-bin-waschbaer-v1.png" alt="Wenn ich groß bin …" />
+    </a>
+    <nav class="site-nav" aria-label="Hauptnavigation">
+    <ul class="child-nav">
+      <li><a href="index.html"><img src="assets/icon-start.svg" alt="" /><span>Start</span></a></li>
+      <li><a href="interviews.html" aria-current="page"><img src="assets/icon-berufe.svg" alt="" /><span>Berufe</span></a></li>
+      <li><a href="komisches-ding.html"><img src="assets/icon-dingsda.svg" alt="" /><span>Dingsda</span></a></li>
     </ul>
-  </nav>
+    <details class="project-nav">
+      <summary>Projekt &amp; Erwachsene</summary>
+      <div class="project-links">
+        <a href="fuer-eltern.html">Für Eltern</a>
+        <a href="fuer-einladende.html">Für Schulen</a>
+        <a href="ueber-das-projekt.html">Über das Projekt</a>
+        <a href="kontakt.html">Kontakt</a>
+      </div>
+    </details>
+    </nav>
+  </div>
 </header>
 
 <main id="content">
+<!-- Vorlage: Datei kopieren, alle Platzhalter ersetzen und danach in interviews.html verlinken. -->
 <section class="hero">
   <p class="kicker">Interview</p>
   <h1>Vorname Nachname</h1>
@@ -42,19 +50,42 @@
       <figure class="figure"><div class="img">Selbst gemalt</div><figcaption class="caption">So wollte ich als Kind werden / So sehe ich meinen Beruf.</figcaption></figure>
     </div>
   </section>
-  <article class="card span-12">
-    <h2>Interviewtext</h2>
-    <p>(Hier kommt dein Interview in einfacher Sprache rein.)</p>
-  </article>
+  <section class="span-12" aria-labelledby="lesefassungen">
+    <h2 id="lesefassungen">Das Interview lesen</h2>
+    <nav class="reading-guide" aria-label="Lesefassung auswählen">
+      <strong>Wie viel möchtest du lesen?</strong>
+      <ul>
+        <li><a href="#kurz">Kurz · Grundschule</a></li>
+        <li><a href="#mittel">Mehr · 10–13 Jahre</a></li>
+        <li><a href="#vollstaendig">Alles · ab etwa 14</a></li>
+      </ul>
+    </nav>
+
+    <!-- Zuerst die vollständige Fassung pflegen, dann die beiden kürzeren daraus ableiten. -->
+    <section class="reading-version" id="kurz">
+      <h3>Kurz · für Grundschulkinder <span class="reading-meta">– zuerst lesen</span></h3>
+      <div class="reading-content"><p>(Kurze, konkrete und gut vorlesbare Fassung.)</p></div>
+    </section>
+    <section class="reading-version" id="mittel">
+      <h3>Mehr · für 10–13-Jährige</h3>
+      <div class="reading-content"><p>(Ausführlichere Fassung mit mehr Zusammenhängen und Stationen.)</p></div>
+    </section>
+    <section class="reading-version" id="vollstaendig">
+      <h3>Alles · für ältere Jugendliche und Erwachsene</h3>
+      <div class="reading-content"><p>(Vollständiges redigiertes Interview; verbindliche inhaltliche Quelle.)</p></div>
+    </section>
+  </section>
 </div>
 </main>
 
 <footer class="footer">
-  <div>
+  <div class="footer-links">
     <a href="impressum.html">Impressum</a> ·
     <a href="datenschutz.html">Datenschutz</a> ·
+    <a href="bildnachweise-rechte.html">Bildnachweise &amp; Rechte</a> ·
     <a href="kontakt.html">Kontakt</a>
   </div>
+  <p class="footer-rights">© 2026 Wenn ich groß bin …</p>
 </footer>
 </body>
 </html>
