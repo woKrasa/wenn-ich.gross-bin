@@ -26,6 +26,10 @@ Diese Datei ist die verbindliche Prüfliste für jede größere Änderung an **�
 - [ ] Namen, Stationen, zeitliche Reihenfolge, direkte Zitate und Kernaussagen stimmen in allen drei Lesefassungen überein.
 - [ ] Die Grundschul-Fassung steht an erster Stelle und ist sprachlich konkret, kurz und gut vorlesbar. Die anderen Fassungen sind leicht auffindbar, ohne die jüngsten Leserinnen und Leser zu überfordern.
 - [ ] Die Grundschul-Fassung steht auf einer eigenen, ruhigen Leseseite. Fragen und Antworten sind unmittelbar sichtbar; Kerninhalte werden nicht hinter aufklappbaren Bereichen verborgen.
+- [ ] Lange Grundschulinterviews sind in wenige konkret benannte Kapitel gegliedert; abstrakte Überschriften wie „Umwege“ werden durch verständliche Fragen ersetzt.
+- [ ] Aufklappbare Bereiche enthalten nur Zusatzinformationen. Ihre große Schaltfläche nennt den Inhalt, zeigt Text und Richtungssymbol und ändert beim Öffnen verständlich ihren Zustand.
+- [ ] Eine Kapitelanzeige dient nur der Orientierung. Sie speichert nichts, bewertet keine Leistung und erzeugt keinen Zwang, alles zu lesen.
+- [ ] Kleine Begleitillustrationen strukturieren höchstens einzelne Kapitel oder besondere Gedanken und unterbrechen nicht jeden Absatz.
 - [ ] Redaktionell ungeklärte oder nicht belegte Aussagen werden nicht veröffentlicht, sondern bis zur Klärung intern als offen dokumentiert.
 - [ ] Interviewseiten nennen keine Ortsangaben. „KIB“ darf ohne Ortsangabe genannt werden.
 - [ ] Das zugehörige Übergabedokument liegt unter `interviews-redaktion/` im Git-Repository und offene Redaktionsfragen bleiben dort nachvollziehbar.
@@ -39,6 +43,7 @@ Diese Datei ist die verbindliche Prüfliste für jede größere Änderung an **�
 - [ ] Klickflächen sind groß, vollständig anklickbar und mit Tastatur sowie Touch bedienbar.
 - [ ] Der aktuelle Hauptbereich ist deutlich farbig und durch stärkere Schrift hervorgehoben; andere Bereiche treten zurück.
 - [ ] Rückwege sind gut sichtbar und führen zu einem erwartbaren Ziel.
+- [ ] Der Rückweg vom Interview heißt knapp „Alle Berufe“ und verwendet dasselbe Koffersymbol wie der Bereich „Berufe“.
 - [ ] Lesefassungen werden nach Textmenge bezeichnet („Kurz lesen“, „Mehr lesen“, „Alles lesen“), nicht wertend als leicht, mittel oder schwer.
 - [ ] Bilder dienen der Orientierung. Fehlerhafte oder nicht freigegebene Bilder werden nicht stillschweigend ersetzt oder neu generiert.
 - [ ] Die sichtbare Kinder-Hauptnavigation enthält nur **Start**, **Berufe** und **Dingsda**.
@@ -71,6 +76,10 @@ Diese Datei ist die verbindliche Prüfliste für jede größere Änderung an **�
 - [ ] Kontakt läuft derzeit über einen normalen `mailto:`-Link; die Website speichert dabei selbst keine Formulardaten.
 - [ ] Kinderfotos und personenbezogene Interviewinhalte werden nur mit dokumentierter Einwilligung veröffentlicht.
 - [ ] Metadaten von veröffentlichten Bildern werden vorab geprüft und bei Bedarf entfernt.
+- [ ] Urheberschaft, Nutzungserlaubnis und Einwilligung sind für jedes veröffentlichte Foto nachvollziehbar dokumentiert.
+- [ ] `bildnachweise-rechte.html` entspricht dem tatsächlich veröffentlichten Bild- und Textbestand.
+- [ ] KI-unterstützte Illustrationen werden transparent beschrieben, ohne einen ungeklärten exklusiven Urheberrechtsschutz zu behaupten.
+- [ ] Fremde Referenzbilder werden weder veröffentlicht noch in das öffentliche Repository übernommen.
 - [ ] Änderungen an Hosting, Formularen, Videos, Karten oder Analysefunktionen lösen eine neue Datenschutzprüfung aus.
 - [ ] Datenschutzerklärung und Impressum entsprechen dem tatsächlich veröffentlichten Stand.
 
@@ -97,6 +106,7 @@ Eine öffentliche Veröffentlichung erfolgt **nicht**, solange:
 
 - Impressum, Kontaktadresse oder Datenschutzerklärung sichtbare Platzhalter enthalten;
 - Einwilligungen für personenbezogene Interviewinhalte oder Bilder ungeklärt sind;
+- Urheberschaft oder Nutzungserlaubnis eines veröffentlichten Fotos ungeklärt ist;
 - interne Links oder wesentliche mobile Ansichten fehlerhaft sind;
 - neue datenerhebende Funktionen nicht dokumentiert und geprüft wurden.
 

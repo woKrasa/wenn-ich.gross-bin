@@ -33,6 +33,9 @@ Diese Regeln gelten für jede Person und jeden KI-Agenten, der eine neue Version
 - Keine Ortsangaben aus Interviewmaterial veröffentlichen.
 - Interview-Übergabedokumente und redaktionelle Arbeitsstände unter `interviews-redaktion/` versionieren; sie nicht mit den sichtbaren HTML-Seiten vermischen.
 - Änderungen an einer Interviewseite immer auch gegen das zugehörige Übergabedokument in `interviews-redaktion/` prüfen.
+- In Grundschulinterviews Kernfragen und Kernaussagen unmittelbar sichtbar lassen. Aufklappbare Bereiche nur für klar bezeichnete Zusatzinformationen einsetzen.
+- Aufklappschaltflächen immer mit verständlichem Text und unterstützendem Richtungssymbol gestalten; Symbole allein genügen nicht.
+- Kapitelanzeigen dienen nur der Orientierung und speichern oder bewerten keinen Lesefortschritt.
 
 ## Pflichtprüfung für jede neue Version
 
@@ -64,6 +67,10 @@ Kein positives Prüfergebnis behaupten, wenn eine Prüfung nicht ausgeführt wer
 - Leitillustrationen vollständig und ohne Beschnitt anzeigen; einen transparenten Hintergrund erhalten.
 - Vor Verwendung Motiv und Figuren prüfen: plausible Anatomie, keine zusätzlichen oder schwebenden Körperteile oder Gegenstände, keine ungewollten Telefone und kein abgeschnittener oder falscher Bildtext.
 - Neue Bildvarianten auf Desktop und Mobil gegen Motiv, Figuren, Gegenstände, Text, Alternativtext, Dateigröße und sichtbare Qualität prüfen.
+- Vor Veröffentlichung Urheberschaft, Nutzungserlaubnis und erforderliche Einwilligungen für jedes Foto dokumentieren.
+- Fremde Referenzbilder ausschließlich intern zur Beobachtung verwenden; nicht in die Website oder das öffentliche Repository übernehmen.
+- KI-Unterstützung bei Illustrationen transparent dokumentieren, aber keinen rechtlich ungeklärten exklusiven Urheberrechtsschutz behaupten.
+- `bildnachweise-rechte.html` bei neuen oder ausgetauschten Bildern aktualisieren.
 - Der Stil soll freundlich, klar, eigenständig und leicht handgezeichnet wirken, zugleich geglättet und konsistent. Konkrete fremde Designs werden nicht nachgeahmt.
 - Symbole mit sichtbarer Beschriftung kombinieren und erst nach ausdrücklicher Freigabe in die Website übernehmen.
 - Der Waschbär ist eine kleine, ermutigende Begleitfigur und keine Lehr- oder Autoritätsperson. Er bleibt deutlich kleiner als ein Grundschulkind.

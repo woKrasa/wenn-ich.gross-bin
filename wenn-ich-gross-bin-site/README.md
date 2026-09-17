@@ -24,6 +24,7 @@ Die Website besteht nur aus HTML, CSS und Bildern. Es gibt keinen Build-Schritt,
 - `komisches-ding.html` – Erklärung des Aktionsformats
 - `fuer-kinder.html`, `fuer-eltern.html`, `fuer-einladende.html` – Zielgruppen-Seiten
 - `ueber-das-projekt.html`, `kontakt.html`, `impressum.html`, `datenschutz.html` – Projekt- und Pflichtinformationen
+- `bildnachweise-rechte.html` – Herkunft und Nutzung der Texte, Fotos und Illustrationen
 - `styles.css` – Farben, Abstände, Schriftgrößen und Mobilansicht
 - `assets/` – Bilder
 - `design/` – freigegebene Figuren- und Gestaltungsstudien; diese Dateien dienen als Vorlage und werden nicht direkt als Webseite angezeigt
@@ -35,6 +36,7 @@ Die Website besteht nur aus HTML, CSS und Bildern. Es gibt keinen Build-Schritt,
 - Neue Interviews erhalten eine eigene HTML-Datei nach dem Muster von `interview-template.html`.
 - Neue Interviewseiten werden in `interviews.html` verlinkt.
 - Platzhalter in `kontakt.html`, `impressum.html` und `datenschutz.html` müssen vor einer Veröffentlichung durch echte Kontaktdaten ersetzt werden.
+- Die Bildnachweise werden bei jedem neuen Foto und jeder neuen Illustration aktualisiert. Ungeklärte Urheberschaft, Nutzungserlaubnis oder Einwilligung ist eine Veröffentlichungssperre.
 - Das Übergabedokument zu jedem Interview zusätzlich unter `interviews-redaktion/` im Git-Repository ablegen. So bleiben Quelle, offene Fragen und spätere Änderungen nachvollziehbar.
 
 ### Navigation verstehen
@@ -83,7 +85,15 @@ Die kleinen Navigationsbilder liegen ebenfalls unter `assets/` und beginnen mit 
 
 Das freigegebene Website-Logo liegt unter `assets/logo-wenn-ich-gross-bin-waschbaer-v1.png`. Die zugehörige Körperstudie liegt unter `design/waschbaer-koerperstudie-v1.png`; die fünf einzeln nutzbaren Haltungen liegen zusätzlich unter `design/waschbaer-posen-v1/`. Neue Varianten überschreiben diese Dateien nicht, sondern erhalten eine neue Versionsnummer. Anatomie, Augen, Farben und Größenverhältnis des Waschbären sind zusätzlich in `PROJEKT-CHECKLISTE.md` beschrieben.
 
-Die beiden Leitbilder enthalten den Waschbären noch nicht. Ihre spätere Ergänzung ist ein eigener Gestaltungs- und Freigabeschritt; Hinweise dafür stehen in `WASCHBAER-BILDENTWICKLUNG-UEBERGABE.md`.
+Die beiden Leitbilder enthalten inzwischen freigegebene Waschbärvarianten. Hinweise zur Figurenentwicklung und zu späteren Varianten stehen in `WASCHBAER-BILDENTWICKLUNG-UEBERGABE.md`.
+
+### Bildrechte dokumentieren
+
+- Eigene Skizzen, freigegebene Endfassungen und wichtige Entwicklungsschritte nachvollziehbar aufbewahren.
+- KI-Unterstützung transparent benennen, ohne einen ungeklärten exklusiven Urheberrechtsschutz zu behaupten.
+- Referenzfotos dienen nur der internen Beobachtung und werden weder in die Website noch in das öffentliche Repository übernommen.
+- Für Personenfotos Urheberin oder Urheber, Nutzungsumfang und Einwilligung dokumentieren.
+- Vor jeder Veröffentlichung `bildnachweise-rechte.html` auf den tatsächlichen Bildbestand abstimmen.
 
 ## Vor jeder neuen Version
 
