@@ -42,6 +42,7 @@ Diese Datei ist die verbindliche Prüfliste für jede größere Änderung an **�
 - [ ] Dasselbe Symbol hat auf allen Seiten dieselbe Bedeutung; die Zahl unterschiedlicher Symbole bleibt überschaubar.
 - [ ] Klickflächen sind groß, vollständig anklickbar und mit Tastatur sowie Touch bedienbar.
 - [ ] Der aktuelle Hauptbereich ist deutlich farbig und durch stärkere Schrift hervorgehoben; andere Bereiche treten zurück.
+- [ ] Der sandbraune Header und die cremefarbenen inaktiven Navigationsflächen sind klar voneinander abgegrenzt und wirken nicht wie Löcher; der aktive Bereich bleibt blau-gelb hervorgehoben.
 - [ ] Rückwege sind gut sichtbar und führen zu einem erwartbaren Ziel.
 - [ ] Der Rückweg vom Interview heißt knapp „Alle Berufe“ und verwendet dasselbe Koffersymbol wie der Bereich „Berufe“.
 - [ ] Lesefassungen werden nach Textmenge bezeichnet („Kurz lesen“, „Mehr lesen“, „Alles lesen“), nicht wertend als leicht, mittel oder schwer.
@@ -138,3 +139,5 @@ Eine öffentliche Veröffentlichung erfolgt **nicht**, solange:
 - [ ] In der kompakten Frontalhaltung gehen die breiten oberen Vorderbeine in Brust und Rumpf über und verjüngen sich erst unten zu schmalen Gelenken. Der kurze Schattenkanal liegt nur zwischen den unteren Vorderbeinen; er endet weich und stumpf in der unteren Rumpfhälfte.
 - [ ] Der kleine blaugraue Augenreflex bleibt gedämpft; es gibt keine weiße Augenhaut, Glanzbögen, Leuchteffekte oder wechselnde Augenstile.
 - [ ] Das freigegebene Kletterlogo darf eine eigene, zur Haltung passende Silhouette verwenden; unsichtbare Gelenke werden dort nicht künstlich hervorgehoben.
+- [ ] Bei „Interview lesen“ wird ausschließlich `assets/waschbaer-interview-lesen-v1.png` verwendet: kleiner Waschbär hinter großem Arbeitskoffer, beide Pfoten auf der Kofferkante, gelbe runde Lesebrille und genau zwei Kofferschnallen.
+- [ ] Die Dokumentationsfassung `design/waschbaer-posen-v1/interview-lesen-v1.png` ist mit der veröffentlichten Lesewaschbär-Datei identisch.

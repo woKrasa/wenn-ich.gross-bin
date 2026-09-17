@@ -87,6 +87,8 @@ Das freigegebene Website-Logo liegt unter `assets/logo-wenn-ich-gross-bin-waschb
 
 Die beiden Leitbilder enthalten inzwischen freigegebene Waschbärvarianten. Hinweise zur Figurenentwicklung und zu späteren Varianten stehen in `WASCHBAER-BILDENTWICKLUNG-UEBERGABE.md`.
 
+Für die Handlung „Interview lesen“ wird ausschließlich `assets/waschbaer-interview-lesen-v1.png` verwendet. Die identische freigegebene Bildfassung liegt zur gestalterischen Dokumentation zusätzlich unter `design/waschbaer-posen-v1/interview-lesen-v1.png`. Sie zeigt den kleinen Waschbären mit gelber runder Lesebrille hinter einem großen Arbeitskoffer; beide Pfoten liegen auf der Kofferkante und der Koffer hat genau zwei Schnallen.
+
 ### Bildrechte dokumentieren
 
 - Eigene Skizzen, freigegebene Endfassungen und wichtige Entwicklungsschritte nachvollziehbar aufbewahren.
