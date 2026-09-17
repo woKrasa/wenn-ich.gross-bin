@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Für Eltern – Wenn ich groß bin …</title>
-  <meta name="description" content="Für Eltern." />
+  <title>Informationen für Eltern – Wenn ich groß bin …</title>
+  <meta name="description" content="Informationen für Eltern zu den Interviews und zum Format Das komische Dingsda." />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -36,64 +36,158 @@
 </header>
 
 <main id="content">
-<section class="hero">
-  <h1>Für Eltern</h1>
-  <p>
-    „Wenn ich groß bin …“ ist ein Begegnungsformat für Grundschulkinder. Es geht nicht um frühe Berufswahl,
-    sondern um <strong>Neugier</strong>, <strong>Selbstvertrauen</strong> und <strong>realistische Zukunftsbilder</strong>.
-    Kinder erleben: Lebenswege sind selten gerade – und Arbeit kann viele Formen haben.
-  </p>
-  <p class="notice promise">Das Projekt diagnostiziert keine Interessen oder Begabungen und gibt Kindern keine Berufs-Etiketten. Es öffnet Gespräche und Möglichkeiten.</p>
-</section>
-
-<div class="grid">
-  <section class="card span-6">
-    <p class="kicker">Worum geht es?</p>
-    <ul>
-      <li>Erwachsene erzählen ehrlich von ihrem Weg: Kindheitstraum, Umwege, Lernen.</li>
-      <li>Kinder sind aktiv: raten, fragen, mitdenken – ohne Leistungsdruck.</li>
-      <li>Wir zeigen: Ein Beruf ist mehr als Noten – er hat auch Team, Alltag, Rückmeldung, Umfeld.</li>
-    </ul>
+  <section class="parent-intro">
+    <p class="eyebrow">Allgemeine Informationen</p>
+    <h1>Für Eltern</h1>
+    <p class="lead">
+      Diese Website bietet Formate, die auf Schulkinder abgestimmt sind. Sie sollen Neugier und Selbstvertrauen
+      stärken und vielfältige, realistische Zukunftsbilder vermitteln.
+    </p>
+    <p>
+      Kinder erleben, dass Lebenswege nicht immer geradlinig verlaufen und Arbeit ganz unterschiedlich sein kann:
+      herausfordernd, erfüllend, sinnvoll – und manchmal auch richtig schön.
+    </p>
+    <nav class="parent-page-nav" aria-label="Bereiche auf dieser Seite">
+      <a href="#interviews"><img src="assets/icon-berufe.svg" alt="" />Die Interviews</a>
+      <a href="#dingsda"><img src="assets/icon-dingsda.svg" alt="" />Das komische Dingsda</a>
+      <a href="#gemeinsam">Projekt und Sicherheit</a>
+    </nav>
   </section>
 
-  <section class="card span-6">
-    <p class="kicker">Wie läuft ein Termin ab?</p>
-    <ul>
-      <li>Dauer meist 60–90 Minuten</li>
-      <li>Mini-Interview + Ratespiel mit 2–3 Gegenständen</li>
-      <li>Abschlussrunde: Was hat überrascht? Was macht Arbeit aus?</li>
-    </ul>
-    <p><a class="btn secondary" href="komisches-ding.html">Ablauf ansehen</a></p>
-  </section>
+  <section class="parent-format" id="interviews" aria-labelledby="interviews-title">
+    <div class="parent-format-heading">
+      <div>
+        <p class="kicker">Wenn ich groß bin …</p>
+        <h2 id="interviews-title">Die Interviews</h2>
+        <p>
+          Erwachsene erzählen von ihrem Weg und zeigen: Ein Beruf ist mehr als Noten. Auch Interessen, Begegnungen,
+          Umwege, Lernen und der Alltag gehören dazu.
+        </p>
+      </div>
+      <img src="assets/wenn-ich-gross-bin-waschbaer-v3.webp" alt="Ein Kind interviewt einen Erwachsenen; ein kleiner Waschbär schaut über dessen Schulter." />
+    </div>
 
-  <section class="card span-12">
-    <p class="kicker">Sicherheit & Grenzen</p>
-    <ul>
-      <li><strong>Kein Test, keine Bewertung:</strong> Es geht um Entdecken, nicht um Leistung.</li>
-      <li><strong>Keine parteipolitische oder religiöse Botschaft:</strong> Das Projekt ist unabhängig.</li>
-      <li><strong>Kindgerechte Inhalte:</strong> Keine schockierenden, belastenden Details.</li>
-      <li><strong>Fotos:</strong> Für den Start veröffentlichen wir grundsätzlich keine Kinderfotos.</li>
-      <li><strong>Respekt:</strong> Wir lachen miteinander, nicht übereinander. Fragen dürfen sein – Antworten bleiben respektvoll.</li>
-    </ul>
-    <div class="notice">
-      Wenn Sie Fragen oder Bedenken haben: Melden Sie sich gern. Transparenz ist uns wichtig.
+    <div class="parent-tabs">
+      <details open name="interview-elterninfo">
+        <summary>Was bedeutet das für Ihr Kind?</summary>
+        <div>
+          <p>
+            Ihr Kind lernt echte Berufs- und Lebenswege kennen. Es darf neugierig fragen und entdecken, dass es
+            nicht den einen richtigen Weg gibt. Dabei geht es nicht um Leistung oder eine frühe Entscheidung für
+            einen Beruf, sondern um Zutrauen und neue Möglichkeiten.
+          </p>
+        </div>
+      </details>
+      <details name="interview-elterninfo">
+        <summary>Sie möchten interviewt werden?</summary>
+        <div>
+          <p>
+            Gesucht werden Erwachsene, die kindgerecht und ehrlich von ihrem Berufsweg erzählen möchten – auch von
+            Veränderungen, Umwegen oder Dingen, die sie erst später gelernt haben.
+          </p>
+          <p><a class="btn secondary" href="kontakt.html">Interesse an einem Interview mitteilen</a></p>
+        </div>
+      </details>
+      <details name="interview-elterninfo">
+        <summary>Wie läuft ein Interview ab?</summary>
+        <div>
+          <p>
+            Vor dem Gespräch werden Inhalt, Rahmen und Freigaben gemeinsam geklärt. Das Interview orientiert sich
+            an Fragen, die für Kinder verständlich und interessant sind. Für die Website entstehen unterschiedlich
+            lange Lesefassungen desselben Gesprächs.
+          </p>
+        </div>
+      </details>
     </div>
   </section>
 
-  <section class="card span-6">
-    <p class="kicker">Fragen, Wünsche und Anregungen</p>
-    <h2>Was möchten Sie wissen?</h2>
-    <p>Sie können nachfragen, Hinweise geben oder erzählen, was Ihrem Kind bei der Begegnung mit Berufen helfen würde.</p>
-    <p><a class="btn secondary" href="kontakt.html">Nachricht schreiben</a></p>
+  <section class="parent-format" id="dingsda" aria-labelledby="dingsda-title">
+    <div class="parent-format-heading">
+      <div>
+        <p class="kicker">Raten, fragen, entdecken</p>
+        <h2 id="dingsda-title">Das komische Dingsda</h2>
+        <p>
+          Ein Gegenstand aus der Arbeitswelt wird zum Rätsel. Die Kinder schauen genau hin, sammeln Vermutungen und
+          finden gemeinsam heraus, wozu er gehört und wer damit arbeitet.
+        </p>
+      </div>
+      <img src="assets/komisches-dingsda-waschbaer-v3.webp" alt="Ein Kind und ein Erwachsener rätseln mit Lupe und Kamera über einen Gegenstand; ein kleiner Waschbär hebt neugierig eine Pfote." />
+    </div>
+
+    <div class="parent-tabs">
+      <details open name="dingsda-elterninfo">
+        <summary>Was bedeutet das für Ihr Kind?</summary>
+        <div>
+          <p>
+            Ihr Kind darf beobachten, Vermutungen äußern und seine Meinung verändern. Es gibt keinen Leistungsdruck:
+            Nicht die schnellste richtige Antwort zählt, sondern das gemeinsame Nachdenken und die Freude am Entdecken.
+          </p>
+        </div>
+      </details>
+      <details name="dingsda-elterninfo">
+        <summary>Sie möchten mitmachen?</summary>
+        <div>
+          <p>
+            Erwachsene können einen ungewöhnlichen, ungefährlichen Gegenstand aus ihrem Arbeitsalltag mitbringen
+            und gemeinsam mit den Kindern auflösen, wofür er gebraucht wird.
+          </p>
+          <p><a class="btn secondary" href="kontakt.html">Ein Dingsda vorschlagen</a></p>
+        </div>
+      </details>
+      <details name="dingsda-elterninfo">
+        <summary>Wie läuft ein Termin ab?</summary>
+        <div>
+          <p>
+            Die Kinder betrachten zunächst den Gegenstand und entwickeln eigene Ideen. Anschließend dürfen sie
+            Fragen stellen, Hinweise sammeln und erfahren, aus welchem Beruf der Gegenstand kommt. Zum Schluss wird
+            gemeinsam besprochen, was überraschend war.
+          </p>
+        </div>
+      </details>
+    </div>
   </section>
 
-  <section class="card span-6">
-    <p class="kicker">Mitmachen</p>
-    <h2>Einen Berufsweg teilen</h2>
-    <p>Eltern und andere Erwachsene können einen Beruf vorstellen, von Umwegen erzählen oder ein „komisches Ding“ aus ihrem Arbeitsalltag mitbringen.</p>
-    <p><a class="btn" href="kontakt.html">Interesse mitteilen</a></p>
+  <section class="parent-shared" id="gemeinsam" aria-labelledby="shared-title">
+    <p class="eyebrow">Für beide Formate</p>
+    <h2 id="shared-title">Über das Projekt</h2>
+    <p>
+      „Wenn ich groß bin …“ möchte Gespräche über Arbeit und Lebenswege öffnen. Kinder sollen Menschen mit
+      unterschiedlichen Erfahrungen kennenlernen und erleben, dass Fragen, Veränderungen und Umwege dazugehören.
+    </p>
+
+    <div class="grid">
+      <section class="card span-6">
+        <p class="kicker">Sicherheit &amp; Grenzen</p>
+        <ul>
+          <li><strong>Kein Test, keine Bewertung:</strong> Es geht um Entdecken, nicht um Leistung.</li>
+          <li><strong>Kindgerechte Gestaltung:</strong> Inhalte werden vorab abgestimmt und so ausgewählt, dass Kinder neugierig und sicher mitmachen können.</li>
+          <li><strong>Fotos:</strong> Für den Start veröffentlichen wir grundsätzlich keine Kinderfotos.</li>
+          <li><strong>Respekt:</strong> Wir lachen miteinander, nicht übereinander.</li>
+        </ul>
+      </section>
+
+      <section class="card span-6">
+        <p class="kicker">Fragen und Anregungen</p>
+        <h3>Was möchten Sie wissen?</h3>
+        <p>
+          Sie können nachfragen, Hinweise geben oder erzählen, was Ihrem Kind bei der Begegnung mit Berufen helfen würde.
+        </p>
+        <p><a class="btn secondary" href="kontakt.html">Nachricht schreiben</a></p>
+      </section>
+    </div>
   </section>
-</div>
+
+  <section class="parent-join" aria-labelledby="join-title">
+    <div>
+      <p class="kicker">Mitmachen</p>
+      <h2 id="join-title">Möchten Sie etwas mit uns teilen?</h2>
+      <p>
+        Erzählen Sie von Ihrem Berufsweg oder bringen Sie ein „komisches Dingsda“ aus Ihrem Arbeitsalltag mit.
+        Schreiben Sie gern dazu, welches der beiden Formate Sie interessiert.
+      </p>
+    </div>
+    <a class="btn" href="kontakt.html">Interesse mitteilen</a>
+  </section>
 </main>
 
 <footer class="footer">

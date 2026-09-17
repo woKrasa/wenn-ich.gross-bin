@@ -98,6 +98,36 @@ main { max-width: var(--max); margin: auto; padding: 34px 16px 70px; }
 .btn:hover { filter: brightness(.97); text-decoration: none; }
 .btn.secondary { background: var(--surface); color: var(--blue-dark); }
 
+/* Eltern- und Schulseiten ordnen die beiden Formate für Erwachsene eindeutig ein. */
+.parent-intro { max-width: 900px; }
+.parent-intro h1 { margin: 0 0 12px; font-size: clamp(2.1rem, 5vw, 3.5rem); }
+.parent-page-nav { margin-top: 24px; display: flex; flex-wrap: wrap; gap: 10px; }
+.parent-page-nav a { min-height: 50px; padding: 9px 14px; display: inline-flex; align-items: center; gap: 9px; border: 1px solid var(--sand-line); border-radius: 13px; background: var(--cream); color: var(--text); font-weight: 800; }
+.parent-page-nav a:hover { border-color: var(--blue); background: var(--blue-soft); text-decoration: none; }
+.parent-page-nav img { width: 40px; height: 34px; object-fit: contain; }
+.parent-format, .parent-shared, .parent-join { margin-top: 28px; scroll-margin-top: 130px; }
+.parent-format { overflow: hidden; border: 1px solid var(--line); border-radius: 24px; background: var(--surface); box-shadow: var(--shadow); }
+.parent-format-heading { min-height: 260px; padding: 28px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(240px, 34%); align-items: center; gap: 28px; }
+.parent-format-heading h2 { font-size: clamp(1.8rem, 4vw, 2.5rem); }
+.parent-format-heading > img { width: 100%; height: 220px; object-fit: contain; }
+.parent-tabs { padding: 0 22px 24px; display: grid; gap: 9px; }
+.parent-tabs details { border: 1px solid var(--sand-line); border-radius: 14px; background: var(--cream); overflow: hidden; }
+.parent-tabs summary { min-height: 58px; padding: 13px 17px; display: flex; align-items: center; justify-content: space-between; gap: 12px; color: var(--text); cursor: pointer; font-weight: 850; list-style: none; }
+.parent-tabs summary::-webkit-details-marker { display: none; }
+.parent-tabs summary::after { content: "+"; color: var(--blue); font-size: 1.45rem; line-height: 1; }
+.parent-tabs details[open] summary { background: #fff3bd; box-shadow: inset 6px 0 0 var(--yellow); }
+.parent-tabs details[open] summary::after { content: "−"; }
+.parent-tabs details > div { padding: 17px; border-top: 1px solid var(--sand-line); background: var(--surface); }
+.parent-tabs details > div > :last-child { margin-bottom: 0; }
+.parent-shared { padding: 26px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); box-shadow: var(--shadow); }
+.parent-shared > p:not(.eyebrow) { max-width: 72ch; }
+.parent-join { padding: 24px 26px; display: flex; align-items: center; justify-content: space-between; gap: 28px; border: 2px solid var(--sand-line); border-radius: var(--radius); background: var(--cream); }
+.parent-join > div { max-width: 700px; }
+.parent-join .btn { flex: 0 0 auto; }
+.school-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.school-secondary-link { margin-top: 12px; }
+.school-format-note { margin-top: 18px; }
+
 /* Lesemengen werden erst im Interviewbereich gewählt. */
 .reading-filter { margin: 26px 0 34px; }
 .reading-filter > p { font-size: 1.35rem; font-weight: 850; }
@@ -219,13 +249,23 @@ body::after { content: "Prototyp V0.8"; position: fixed; right: 9px; bottom: 7px
   main { padding: 22px 14px 55px; }
   .home-welcome { padding: 20px; }
   .home-welcome h1 { font-size: 2.15rem; }
-  .home-path, .page-intro-with-image, .dingsda-intro { grid-template-columns: 1fr; }
+  .home-path, .page-intro-with-image, .dingsda-intro, .parent-format-heading { grid-template-columns: 1fr; }
   .home-path { min-height: 0; }
   .home-path-copy { padding: 22px; }
   .home-path-icon { width: 58px; height: 44px; }
   .home-path > img:not(.home-path-icon) { height: 180px; padding: 4px 16px 16px; }
   .home-path-action { width: 100%; margin-top: 8px; }
   .page-intro-with-image img, .dingsda-intro > img { width: min(100%, 250px); height: 145px; justify-self: center; }
+  .parent-page-nav { display: grid; }
+  .parent-page-nav a { width: 100%; }
+  .parent-format-heading { min-height: 0; padding: 22px 20px 12px; gap: 8px; }
+  .parent-format-heading > img { width: min(100%, 290px); height: 180px; justify-self: center; }
+  .parent-tabs { padding: 0 14px 18px; }
+  .parent-tabs summary { min-height: 54px; padding: 12px 14px; }
+  .parent-tabs details > div { padding: 15px; }
+  .parent-shared { padding: 21px 18px; }
+  .parent-join { padding: 21px 18px; display: grid; }
+  .school-actions { display: grid; }
   .reading-filter > div, .amount-grid { grid-template-columns: 1fr; }
   .reading-choice, .amount-card { min-height: 118px; grid-template-columns: 82px 1fr; grid-template-rows: auto auto; column-gap: 12px; align-items: center; }
   .reading-choice img, .amount-card img { grid-row: 1 / 3; width: 76px; }
