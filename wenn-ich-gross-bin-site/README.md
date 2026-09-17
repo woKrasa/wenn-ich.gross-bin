@@ -44,13 +44,15 @@ Die Website besteht nur aus HTML, CSS und Bildern. Es gibt keinen Build-Schritt,
 Die Startseite ist bereits für Kinder gedacht. Deshalb gibt es oben keinen zusätzlichen Menüpunkt „Für Kinder“ mehr.
 
 - **Start** führt zur kindgerechten Auswahlseite.
-- **Berufe** führt zu den Interviews. Erst dort wird die Textmenge gewählt.
+- **Berufe** führt zu den Berufsgeschichten. Erst dort wird die Textmenge gewählt.
 - **Dingsda** erklärt das Aktionsformat und kann später um Berichte ergänzt werden.
 - **Projekt & Erwachsene** bündelt Informationen für Eltern und Schulen, die Projektbeschreibung und den Kontakt.
 
 Auf kleinen Bildschirmen bleiben die drei Kinderziele groß sichtbar. Projektinformationen stehen bewusst getrennt darüber.
 
 Die Symbole sind Teil der Orientierung: Der Koffer bedeutet überall „Berufe“, die Lupe überall „Dingsda“. Deshalb werden in Navigation und Inhaltsüberschriften dieselben Dateien verwendet. Links neben der Navigation steht vorerst kein Projektname; ein späteres Logo wird erst nach eigener Freigabe eingesetzt.
+
+Auf Kinderseiten bleibt auch die Sprache entlang des Weges stabil: **Berufe → Berufe entdecken → Berufsgeschichte lesen**. „Interview“ ist ein Begriff für Erwachseneninformationen und die interne Redaktion, nicht für die Kinder-Navigation.
 
 ### Ein neues Interview anlegen
 
@@ -87,7 +89,9 @@ Das freigegebene Website-Logo liegt unter `assets/logo-wenn-ich-gross-bin-waschb
 
 Die beiden Leitbilder enthalten inzwischen freigegebene Waschbärvarianten. Hinweise zur Figurenentwicklung und zu späteren Varianten stehen in `WASCHBAER-BILDENTWICKLUNG-UEBERGABE.md`.
 
-Für die Handlung „Interview lesen“ wird ausschließlich `assets/waschbaer-interview-lesen-v1.png` verwendet. Die identische freigegebene Bildfassung liegt zur gestalterischen Dokumentation zusätzlich unter `design/waschbaer-posen-v1/interview-lesen-v1.png`. Sie zeigt den kleinen Waschbären mit gelber runder Lesebrille hinter einem großen Arbeitskoffer; beide Pfoten liegen auf der Kofferkante und der Koffer hat genau zwei Schnallen.
+Für die Kinderhandlung „Berufsgeschichte lesen“ wird ausschließlich `assets/waschbaer-interview-lesen-v1.png` verwendet. Die identische freigegebene Bildfassung liegt zur gestalterischen Dokumentation zusätzlich unter `design/waschbaer-posen-v1/interview-lesen-v1.png`. Sie zeigt den kleinen Waschbären mit gelber runder Lesebrille hinter einem großen Arbeitskoffer; beide Pfoten liegen auf der Kofferkante und der Koffer hat genau zwei Schnallen.
+
+Der Zeigewaschbär für aufklappbare Zusatzinformationen in Kinderinterviews liegt unter `assets/waschbaer-zeigt-v1.png`; die identische Dokumentationsfassung liegt unter `design/waschbaer-posen-v1/zeigt-v1.png`. Er sitzt klein auf der oberen Kante der Zusatzbox und zeigt auf deren Inhalt. Auf der Elternseite wird diese Figur nicht eingesetzt.
 
 ### Bildrechte dokumentieren
 

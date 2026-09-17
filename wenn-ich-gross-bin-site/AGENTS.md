@@ -80,7 +80,8 @@ Kein positives Prüfergebnis behaupten, wenn eine Prüfung nicht ausgeführt wer
 - Je nach Haltung müssen die schmalen Gelenke nicht sichtbar sein. Insbesondere das freigegebene Kletterlogo wird nicht nachträglich anatomisch umgebaut.
 - Die Augen bleiben dunkle blaue Ovale mit einem kleinen, gedämpften blaugrauen Reflex. Keine weiße Augenhaut, Glanzbögen oder erschrocken wirkende Augen ergänzen.
 - Verbindliche Figurenstudien liegen unter `design/`; veröffentlichte Logo- und Bilddateien liegen unter `assets/`.
-- Bei der Handlung **Interview lesen** ausschließlich `assets/waschbaer-interview-lesen-v1.png` einsetzen. Der freigegebene Lesewaschbär schaut mit gelber runder Lesebrille hinter einem großen Arbeitskoffer hervor, legt beide Pfoten auf die Kofferkante und der Koffer hat genau zwei Schnallen. Die identische Dokumentationsfassung liegt unter `design/waschbaer-posen-v1/interview-lesen-v1.png`.
+- Bei der Kinderhandlung **Berufsgeschichte lesen** ausschließlich `assets/waschbaer-interview-lesen-v1.png` einsetzen. Der freigegebene Lesewaschbär schaut mit gelber runder Lesebrille hinter einem großen Arbeitskoffer hervor, legt beide Pfoten auf die Kofferkante und der Koffer hat genau zwei Schnallen. Die identische Dokumentationsfassung liegt unter `design/waschbaer-posen-v1/interview-lesen-v1.png`.
+- Auf den Zusatzboxen in Kinderinterviews ausschließlich `assets/waschbaer-zeigt-v1.png` als dekorativen Zeigewaschbären einsetzen. Er sitzt klein auf der oberen Boxkante und zeigt auf den ausklappbaren Inhalt. Die Elternseite erhält keine zusätzlichen Zeigewaschbären; dort genügen die Leitbilder.
 
 ## Verbindliche Navigationsstruktur
 
@@ -91,5 +92,6 @@ Kein positives Prüfergebnis behaupten, wenn eine Prüfung nicht ausgeführt wer
 - Kinder-Schaltflächen großzügig, vollständig anklickbar und mobil lesbar halten.
 - Den freigegebenen Symbolstand V12 verwenden und nur die für den jeweiligen Bereich benötigten Symbole anzeigen.
 - Für dasselbe Ziel immer exakt dieselbe Symboldatei, Farbe und sichtbare Bezeichnung verwenden; keine nur ähnlichen Ersatzsymbole einsetzen.
-- Den Header in hellem Sandbraun und inaktive Navigationsflächen in warmem Creme halten. Der aktive Hauptbereich bleibt durch Blau und Gelb deutlich hervorgehoben; Navigationsflächen dürfen nicht wie Aussparungen im Header wirken.
+- Auf Kinderseiten den Bereich durchgängig als **Berufe**, **Berufe entdecken** und **Berufsgeschichte lesen** bezeichnen. Das redaktionelle Wort **Interview** bleibt Erwachseneninformationen und interner Dokumentation vorbehalten.
+- Den Header in hellem Sandbraun und inaktive Navigationsflächen in warmem Creme halten. Der aktive Kinderbereich erhält einen warmen gelblichen Hintergrund mit blauer Schrift; **Projekt & Erwachsene** bleibt im Erwachsenenbereich blau markiert.
 - Den ausgeschriebenen Projektnamen nicht erneut links neben der Hauptnavigation einblenden. Ein Logo erst nach gesonderter Freigabe einsetzen.

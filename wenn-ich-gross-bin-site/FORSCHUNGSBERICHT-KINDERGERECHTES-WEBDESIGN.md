@@ -24,10 +24,11 @@ Quellen: [Nielsen Norman Group: Children's UX](https://www.nngroup.com/articles/
 ### Sinnvoll übernehmen
 
 - Eine stabile Hauptnavigation, deren Reihenfolge und Bezeichnungen auf allen Seiten gleich bleiben.
+- Begriffe entlang eines Kinderwegs wiederholen und nur konkret erweitern: **Berufe → Berufe entdecken → Berufsgeschichte lesen**. Redaktionelle Textsorten wie „Interview“ sind für Erwachsene und die interne Dokumentation sinnvoll, aber kein notwendiger Navigationsbegriff für Grundschulkinder.
 - Aktuellen Bereich deutlich mit Text, Farbe und `aria-current` markieren; nicht allein durch Farbe.
 - Symbol **und** verständliche Beschriftung verwenden. Symbole allein sind für ungeübte Lesende mehrdeutig.
 - Die ganze Interviewkarte anklickbar machen, aber einen klaren Linktext sichtbar lassen.
-- „Zurück zu den Interviews“ auf Interviewseiten zusätzlich zur Hauptnavigation anbieten.
+- „Alle Berufe“ auf Berufsgeschichten zusätzlich zur Hauptnavigation als Rückweg anbieten.
 - Große Touch-Ziele mit Abstand. WCAG 2.2 verlangt auf AA-Niveau grundsätzlich mindestens 24 × 24 CSS-Pixel oder ausreichenden Abstand; für eine Kinderseite sollte praktisch großzügiger gestaltet werden.
 
 Quellen: [WCAG 2.2](https://www.w3.org/TR/WCAG22/), [W3C Understanding Target Size (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html)
