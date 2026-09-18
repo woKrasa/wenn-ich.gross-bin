@@ -43,7 +43,7 @@ ul { margin: 0 0 14px 20px; }
 .site-nav { min-width: 0; display: grid; grid-template-columns: minmax(420px, 760px) auto; justify-content: center; align-items: center; gap: 18px; }
 .child-nav { display: grid; grid-template-columns: repeat(3, minmax(110px, 1fr)); gap: 10px; list-style: none; margin: 0; padding: 0; }
 .child-nav a { min-height: 78px; padding: 8px 14px; display: flex; align-items: center; justify-content: center; gap: 10px; border: 2px solid var(--sand-line); border-radius: 16px; background: var(--cream); color: var(--text); font-size: 1.18rem; font-weight: 800; }
-.child-nav a:hover { border-color: var(--blue); background: var(--blue-soft); text-decoration: none; }
+.child-nav a:hover { border-color: #c99d11; background: #fff8d6; text-decoration: none; }
 .child-nav a[aria-current="page"] { border-color: #c99d11; background: #fff0aa; box-shadow: inset 0 -5px 0 var(--yellow); }
 .child-nav img { width: 52px; height: 44px; object-fit: contain; }
 .project-nav { position: relative; }
@@ -215,7 +215,7 @@ main { max-width: var(--max); margin: auto; padding: 34px 16px 70px; }
 .chapter-count { margin: 0 0 4px; color: var(--muted); font-size: .98rem; font-weight: 800; }
 .key-thought { margin: 24px 0; padding: 16px 18px; border-left: 6px solid var(--yellow); border-radius: 0 12px 12px 0; background: #fff8d9; font-weight: 750; }
 .interview-extra { position: relative; max-width: 56ch; margin: 58px 0 24px; border: 2px solid var(--line); border-radius: 14px; background: #fbfdff; }
-.interview-extra::before { content: ""; position: absolute; z-index: 2; top: -58px; right: 18px; width: 92px; height: 108px; background: url("assets/waschbaer-zeigt-v1.png") center / contain no-repeat; pointer-events: none; }
+.interview-extra-raccoon { position: absolute; z-index: 2; top: -58px; right: 18px; width: 92px; height: 108px; object-fit: contain; pointer-events: none; }
 .interview-extra summary { min-height: 58px; padding: 12px 118px 12px 16px; display: flex; align-items: center; justify-content: space-between; gap: 14px; color: var(--blue-dark); font-size: 1.05rem; font-weight: 850; line-height: 1.35; cursor: pointer; list-style: none; }
 .interview-extra summary::-webkit-details-marker { display: none; }
 .interview-extra summary:hover { background: var(--blue-soft); }
@@ -223,8 +223,9 @@ main { max-width: var(--max); margin: auto; padding: 34px 16px 70px; }
 .summary-open { display: none; }
 .interview-extra[open] .summary-closed { display: none; }
 .interview-extra[open] .summary-open { display: inline; }
-.disclosure-icon { width: 15px; height: 15px; flex: 0 0 15px; border-right: 3px solid currentColor; border-bottom: 3px solid currentColor; transform: rotate(45deg) translateY(-3px); }
-.interview-extra[open] .disclosure-icon { transform: rotate(225deg) translate(-2px, -2px); }
+.disclosure-icon { width: 24px; height: 24px; flex: 0 0 24px; display: grid; place-items: center; color: var(--blue); font-size: 1.45rem; line-height: 1; }
+.disclosure-icon::before { content: "+"; }
+.interview-extra[open] .disclosure-icon::before { content: "−"; }
 .interview-extra-body { padding: 4px 18px 20px; border-top: 1px solid var(--line); }
 .back-link.end { margin-top: 26px; }
 .reading-guide { margin-top: 18px; }
@@ -244,7 +245,7 @@ main { max-width: var(--max); margin: auto; padding: 34px 16px 70px; }
 .footer-rights { margin: 8px 0 0; font-size: .9rem; }
 .legal-copy { max-width: 760px; margin-inline: auto; }
 .legal-copy h2:not(:first-child) { margin-top: 28px; }
-body::after { content: "Prototyp V0.8"; position: fixed; right: 9px; bottom: 7px; z-index: 2000; padding: 3px 7px; border: 1px solid var(--line); border-radius: 7px; background: rgba(255, 255, 255, .92); color: var(--muted); font-size: .72rem; font-weight: 750; }
+body::after { content: "Prototyp V0.9"; position: fixed; right: 9px; bottom: 7px; z-index: 2000; padding: 3px 7px; border: 1px solid var(--line); border-radius: 7px; background: rgba(255, 255, 255, .92); color: var(--muted); font-size: .72rem; font-weight: 750; }
 
 @media (max-width: 900px) {
   .header-inner { grid-template-columns: 145px minmax(0, 1fr); gap: 12px; }
@@ -309,7 +310,7 @@ body::after { content: "Prototyp V0.8"; position: fixed; right: 9px; bottom: 7px
   .chapter-card-nav { display: grid; }
   .chapter-card-nav a { width: 100%; }
   .interview-extra { margin-top: 50px; }
-  .interview-extra::before { top: -48px; right: 10px; width: 76px; height: 90px; }
+  .interview-extra-raccoon { top: -48px; right: 10px; width: 76px; height: 90px; }
   .interview-extra summary { padding-right: 92px; }
   .interview-extra summary { font-size: 1rem; }
   .span-4, .span-6, .span-8 { grid-column: span 12; }

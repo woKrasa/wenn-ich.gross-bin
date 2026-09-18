@@ -27,7 +27,7 @@ Diese Datei ist die verbindliche Prüfliste für jede größere Änderung an **�
 - [ ] Die Grundschul-Fassung steht an erster Stelle und ist sprachlich konkret, kurz und gut vorlesbar. Die anderen Fassungen sind leicht auffindbar, ohne die jüngsten Leserinnen und Leser zu überfordern.
 - [ ] Die Grundschul-Fassung steht auf einer eigenen, ruhigen Leseseite. Fragen und Antworten sind unmittelbar sichtbar; Kerninhalte werden nicht hinter aufklappbaren Bereichen verborgen.
 - [ ] Lange Grundschulinterviews sind in wenige konkret benannte Kapitel gegliedert; abstrakte Überschriften wie „Umwege“ werden durch verständliche Fragen ersetzt.
-- [ ] Aufklappbare Bereiche enthalten nur Zusatzinformationen. Ihre große Schaltfläche nennt den Inhalt, zeigt Text und Richtungssymbol und ändert beim Öffnen verständlich ihren Zustand.
+- [ ] Aufklappbare Bereiche enthalten nur Zusatzinformationen. Ihre große Schaltfläche nennt den Inhalt, zeigt Text sowie Plus/Minus und ändert beim Öffnen verständlich ihren Zustand. Kinder- und Erwachsenenbereiche folgen derselben Logik.
 - [ ] Eine Kapitelanzeige dient nur der Orientierung. Sie speichert nichts, bewertet keine Leistung und erzeugt keinen Zwang, alles zu lesen.
 - [ ] Lange Kinderinterviews können als Karteikartenregister dargestellt werden: sichtbare Kapitelreiter, genau ein Blatt im Vordergrund und verständliche Vor-/Zurück-Links. Ohne unterstützende CSS-Funktionen bleiben alle Kapitel vollständig lesbar.
 - [ ] Kleine Begleitillustrationen strukturieren höchstens einzelne Kapitel oder besondere Gedanken und unterbrechen nicht jeden Absatz.
@@ -45,6 +45,7 @@ Diese Datei ist die verbindliche Prüfliste für jede größere Änderung an **�
 - [ ] Klickflächen sind groß, vollständig anklickbar und mit Tastatur sowie Touch bedienbar.
 - [ ] Der aktuelle Hauptbereich ist deutlich farbig und durch stärkere Schrift hervorgehoben; andere Bereiche treten zurück.
 - [ ] Der sandbraune Header und die cremefarbenen inaktiven Navigationsflächen sind klar voneinander abgegrenzt und wirken nicht wie Löcher; aktive Kinderbereiche sind gelblich hervorgehoben, **Projekt & Erwachsene** bleibt blau markiert.
+- [ ] Hover-Zustände der Kinderknöpfe verwenden einen gelben Rand und einen sehr hellgelben Hintergrund statt Blau.
 - [ ] Rückwege sind gut sichtbar und führen zu einem erwartbaren Ziel.
 - [ ] Der Rückweg vom Interview heißt knapp „Alle Berufe“ und verwendet dasselbe Koffersymbol wie der Bereich „Berufe“.
 - [ ] Lesefassungen werden nach Textmenge bezeichnet („Kurz lesen“, „Mehr lesen“, „Alles lesen“), nicht wertend als leicht, mittel oder schwer.
@@ -94,6 +95,8 @@ Diese Datei ist die verbindliche Prüfliste für jede größere Änderung an **�
 - [ ] Die Kerninhalte bleiben auch ohne JavaScript lesbar und navigierbar.
 
 ## 7. Prüfung vor Merge oder Veröffentlichung
+
+Die sichtbare Prototypnummer wird bei jedem Commit mit Änderungen an der Website fortlaufend erhöht.
 
 1. Alle geänderten Seiten auf Desktop und Mobilansicht ansehen.
 2. Tastaturnavigation und sichtbaren Fokus prüfen.

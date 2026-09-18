@@ -34,7 +34,7 @@ Diese Regeln gelten für jede Person und jeden KI-Agenten, der eine neue Version
 - Interview-Übergabedokumente und redaktionelle Arbeitsstände unter `interviews-redaktion/` versionieren; sie nicht mit den sichtbaren HTML-Seiten vermischen.
 - Änderungen an einer Interviewseite immer auch gegen das zugehörige Übergabedokument in `interviews-redaktion/` prüfen.
 - In Grundschulinterviews Kernfragen und Kernaussagen unmittelbar sichtbar lassen. Aufklappbare Bereiche nur für klar bezeichnete Zusatzinformationen einsetzen.
-- Aufklappschaltflächen immer mit verständlichem Text und unterstützendem Richtungssymbol gestalten; Symbole allein genügen nicht.
+- Aufklappschaltflächen immer mit verständlichem Text und unterstützendem Plus/Minus gestalten; Symbole allein genügen nicht. Kinder- und Erwachsenenbereiche verwenden dieselbe Logik.
 - Kapitelanzeigen dienen nur der Orientierung und speichern oder bewerten keinen Lesefortschritt.
 
 ## Pflichtprüfung für jede neue Version
@@ -94,4 +94,6 @@ Kein positives Prüfergebnis behaupten, wenn eine Prüfung nicht ausgeführt wer
 - Für dasselbe Ziel immer exakt dieselbe Symboldatei, Farbe und sichtbare Bezeichnung verwenden; keine nur ähnlichen Ersatzsymbole einsetzen.
 - Auf Kinderseiten den Bereich durchgängig als **Berufe**, **Berufe entdecken** und **Berufsgeschichte lesen** bezeichnen. Das redaktionelle Wort **Interview** bleibt Erwachseneninformationen und interner Dokumentation vorbehalten.
 - Den Header in hellem Sandbraun und inaktive Navigationsflächen in warmem Creme halten. Der aktive Kinderbereich erhält einen warmen gelblichen Hintergrund mit blauer Schrift; **Projekt & Erwachsene** bleibt im Erwachsenenbereich blau markiert.
+- Hover-Zustände der Kinderknöpfe bleiben in der gelb-cremefarbenen Familie; sie wechseln nicht zu Hellblau. **Projekt & Erwachsene** behält seine blaue Kennzeichnung.
+- Jede sichtbare Prototypversion erhält eine fortlaufende Nummer. Die Nummer wird mit jedem Commit geändert, der die sichtbare Website verändert.
 - Den ausgeschriebenen Projektnamen nicht erneut links neben der Hauptnavigation einblenden. Ein Logo erst nach gesonderter Freigabe einsetzen.

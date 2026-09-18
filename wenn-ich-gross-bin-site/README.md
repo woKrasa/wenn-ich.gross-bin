@@ -104,11 +104,12 @@ Der Zeigewaschbär für aufklappbare Zusatzinformationen in Kinderinterviews lie
 ## Vor jeder neuen Version
 
 1. `PROJEKT-CHECKLISTE.md` Punkt für Punkt prüfen.
-2. Alle geänderten Seiten im Browser öffnen.
-3. Das Browserfenster sehr schmal ziehen und Navigation, Texte und Schaltflächen prüfen.
-4. Jeden geänderten Link anklicken.
-5. Prüfen, ob Platzhalter sichtbar sind und ob neue personenbezogene Daten oder externe Dienste hinzugekommen sind.
-6. Änderungen und Prüfergebnis im Commit oder Pull Request kurz beschreiben.
+2. Die sichtbare Prototypnummer fortlaufend erhöhen, sobald sich die Website sichtbar ändert.
+3. Alle geänderten Seiten im Browser öffnen.
+4. Das Browserfenster sehr schmal ziehen und Navigation, Texte und Schaltflächen prüfen.
+5. Jeden geänderten Link anklicken.
+6. Prüfen, ob Platzhalter sichtbar sind und ob neue personenbezogene Daten oder externe Dienste hinzugekommen sind.
+7. Änderungen und Prüfergebnis im Commit oder Pull Request kurz beschreiben.
 
 `AGENTS.md` enthält denselben verpflichtenden Ablauf für künftige KI-gestützte Bearbeitungen.
 

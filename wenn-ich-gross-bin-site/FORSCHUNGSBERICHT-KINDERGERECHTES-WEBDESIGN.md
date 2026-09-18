@@ -27,6 +27,7 @@ Quellen: [Nielsen Norman Group: Children's UX](https://www.nngroup.com/articles/
 - Begriffe entlang eines Kinderwegs wiederholen und nur konkret erweitern: **Berufe → Berufe entdecken → Berufsgeschichte lesen**. Redaktionelle Textsorten wie „Interview“ sind für Erwachsene und die interne Dokumentation sinnvoll, aber kein notwendiger Navigationsbegriff für Grundschulkinder.
 - Aktuellen Bereich deutlich mit Text, Farbe und `aria-current` markieren; nicht allein durch Farbe.
 - Symbol **und** verständliche Beschriftung verwenden. Symbole allein sind für ungeübte Lesende mehrdeutig.
+- Dieselbe Interaktion überall gleich kennzeichnen: Aufklappbare Zusatzbereiche verwenden verständlichen Text und ein einheitliches Plus/Minus. Das Symbol unterstützt nur; der Text erklärt die Handlung.
 - Die ganze Interviewkarte anklickbar machen, aber einen klaren Linktext sichtbar lassen.
 - „Alle Berufe“ auf Berufsgeschichten zusätzlich zur Hauptnavigation als Rückweg anbieten.
 - Große Touch-Ziele mit Abstand. WCAG 2.2 verlangt auf AA-Niveau grundsätzlich mindestens 24 × 24 CSS-Pixel oder ausreichenden Abstand; für eine Kinderseite sollte praktisch großzügiger gestaltet werden.
