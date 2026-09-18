@@ -67,3 +67,10 @@ Wenn der neue Chat das Repository nicht direkt öffnen kann, diese vier Dateien 
 4. `assets/komisches-dingsda-v2.webp`
 
 Die fotografischen Waschbärreferenzen aus der Entwurfsphase sind nicht erforderlich, solange die freigegebene Figurenstudie verfügbar ist.
+
+
+## Ergänzte Waschbärreferenzen vom 18. September 2026
+
+Verbindliche Referenzzuordnung und Bilder: [design/waschbaer-referenzen-v1/README.md](design/waschbaer-referenzen-v1/README.md). Die dort abgelegte WhatsApp-Figurenstudie ist die Vorlage für Körper, Fellkonturen, schmale Gelenke und längliche Pfoten. Das zuletzt bearbeitete Szenenbild dient ausschließlich als Referenz für den seitlich gedrehten Kopf; seine Körperdarstellung ist damit nicht vollständig freigegeben. Bei Bildbearbeitungen die passenden Referenzen tatsächlich mitgeben und die Umsetzung sichtbar prüfen.
+
+Aktueller Freigabestand: `design/waschbaer-referenzen-v1/seitlicher-kopf-szenenreferenz-v2.png` ist die gewählte Kopfreferenz und als vollständige Szene für die Website freigegeben; Webfassung: `assets/wenn-ich-gross-bin-waschbaer-v4.webp`. Die frühere Szenenreferenz v1 ist nur Entwicklungshistorie. Details und Grenzen stehen in der Referenz-README.

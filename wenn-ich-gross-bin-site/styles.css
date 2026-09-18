@@ -245,7 +245,7 @@ main { max-width: var(--max); margin: auto; padding: 34px 16px 70px; }
 .footer-rights { margin: 8px 0 0; font-size: .9rem; }
 .legal-copy { max-width: 760px; margin-inline: auto; }
 .legal-copy h2:not(:first-child) { margin-top: 28px; }
-body::after { content: "Prototyp V0.9"; position: fixed; right: 9px; bottom: 7px; z-index: 2000; padding: 3px 7px; border: 1px solid var(--line); border-radius: 7px; background: rgba(255, 255, 255, .92); color: var(--muted); font-size: .72rem; font-weight: 750; }
+body::after { content: "Prototyp V0.10"; position: fixed; right: 9px; bottom: 7px; z-index: 2000; padding: 3px 7px; border: 1px solid var(--line); border-radius: 7px; background: rgba(255, 255, 255, .92); color: var(--muted); font-size: .72rem; font-weight: 750; }
 
 @media (max-width: 900px) {
   .header-inner { grid-template-columns: 145px minmax(0, 1fr); gap: 12px; }

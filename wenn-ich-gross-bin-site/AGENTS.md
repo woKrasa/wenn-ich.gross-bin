@@ -97,3 +97,10 @@ Kein positives Prüfergebnis behaupten, wenn eine Prüfung nicht ausgeführt wer
 - Hover-Zustände der Kinderknöpfe bleiben in der gelb-cremefarbenen Familie; sie wechseln nicht zu Hellblau. **Projekt & Erwachsene** behält seine blaue Kennzeichnung.
 - Jede sichtbare Prototypversion erhält eine fortlaufende Nummer. Die Nummer wird mit jedem Commit geändert, der die sichtbare Website verändert.
 - Den ausgeschriebenen Projektnamen nicht erneut links neben der Hauptnavigation einblenden. Ein Logo erst nach gesonderter Freigabe einsetzen.
+
+
+## Ergänzte Waschbärreferenzen vom 18. September 2026
+
+Verbindliche Referenzzuordnung und Bilder: [design/waschbaer-referenzen-v1/README.md](design/waschbaer-referenzen-v1/README.md). Die dort abgelegte WhatsApp-Figurenstudie ist die Vorlage für Körper, Fellkonturen, schmale Gelenke und längliche Pfoten. Das zuletzt bearbeitete Szenenbild dient ausschließlich als Referenz für den seitlich gedrehten Kopf; seine Körperdarstellung ist damit nicht vollständig freigegeben. Bei Bildbearbeitungen die passenden Referenzen tatsächlich mitgeben und die Umsetzung sichtbar prüfen.
+
+Aktueller Freigabestand: `design/waschbaer-referenzen-v1/seitlicher-kopf-szenenreferenz-v2.png` ist die gewählte Kopfreferenz und als vollständige Szene für die Website freigegeben; Webfassung: `assets/wenn-ich-gross-bin-waschbaer-v4.webp`. Die frühere Szenenreferenz v1 ist nur Entwicklungshistorie. Details und Grenzen stehen in der Referenz-README.
